@@ -1,8 +1,8 @@
-<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<html xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils" xmlns:lxslt="http://xml.apache.org/xslt">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Unit Test Results: All Errors</title>
-<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+<link title="Style" type="text/css" rel="stylesheet" href="stylesheet.css">
 </head>
 <body onload="open('allclasses-frame.html','classListFrame')">
 <h1>Unit Test Results.</h1>
@@ -13,9 +13,21 @@
 </table>
 <hr size="1">
 <h2>All Errors</h2>
-<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
 <tr valign="top">
 <th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="programmer/0_AddProgrammerSpec.html">AddProgrammerSpec</a></td><td><a name="should go to show pairing matrix page when clicking on the view matrix button"></a><a href="programmer/0_AddProgrammerSpec.html#should go to show pairing matrix page when clicking on the view matrix button">should go to show pairing matrix page when clicking on the view matrix button</a></td><td>Error</td><td>Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context<pre>geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:15)
+</pre>
+</td><td>30.795</td>
 </tr>
 </table>
 </body>

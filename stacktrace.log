@@ -1,0 +1,198 @@
+2011-09-10 23:14:38,547 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:14:38,556 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:17:24,842 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:17:24,850 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:18:20,867 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:18:20,885 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:21:25,297 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:21:25,317 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:23:39,391 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:23:39,399 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:24:17,430 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:24:17,438 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:25:52,558 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:25:52,566 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:27:59,990 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve save as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:28:00,006 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve save as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:35:35,201 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve save as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:35:35,209 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve save as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:36:46,644 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve save as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-10 23:36:46,653 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve save as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:14)
+2011-09-11 00:40:42,721 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:15)
+2011-09-11 00:40:42,729 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:15)

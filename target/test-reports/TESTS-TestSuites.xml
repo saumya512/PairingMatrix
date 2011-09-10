@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="ProgrammerControllerSpec" package="org.matrix" tests="1" time="1.862" timestamp="2011-09-10T12:47:03">
+  <testsuite errors="1" failures="0" hostname="twu-pc" id="0" name="AddProgrammerSpec" package="programmer" tests="1" time="30.81" timestamp="2011-09-10T19:10:12">
       <properties />
 
-      <testcase classname="org.matrix.ProgrammerControllerSpec" name="should save programmer with Id and name" time="1.825" />
+      <testcase classname="programmer.AddProgrammerSpec" name="should go to show pairing matrix page when clicking on the view matrix button" time="30.795">
+          <error message="Unable to resolve viewPairingMatrix as content for Page, or as a property on it&apos;s Navigator context" type="geb.error.UnresolvablePropertyException">geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it&apos;s Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:15)
+</error>
 
-      <system-out><![CDATA[--Output from should save programmer with Id and name--
+      </testcase>
+
+      <system-out><![CDATA[--Output from should go to show pairing matrix page when clicking on the view matrix button--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from should save programmer with Id and name--
+      <system-err><![CDATA[--Output from should go to show pairing matrix page when clicking on the view matrix button--
 ]]></system-err>
 
   </testsuite>

@@ -21,8 +21,13 @@
 
       <div class="form-submit-area">
           <input type="submit" id="save-programmer-info" value="Save"/>
-          %{--<button id="save-programmer-info">Save</button>--}%
+
       </div>
-  </g:form>
+
+      <div class="view-matrx">
+          <button id="View-Pairing-Matrix">View Pairing Matrix</button>
+      </div>
+
+   </g:form>
   </body>
 </html>

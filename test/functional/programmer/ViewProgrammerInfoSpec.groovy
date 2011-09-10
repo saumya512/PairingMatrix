@@ -1,0 +1,4 @@
+package programmer
+
+class ViewProgrammerInfoSpec {
+}

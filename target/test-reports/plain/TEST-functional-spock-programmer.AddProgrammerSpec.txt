@@ -1,0 +1,21 @@
+Testsuite: programmer.AddProgrammerSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 30.81 sec
+------------- Standard Output ---------------
+--Output from should go to show pairing matrix page when clicking on the view matrix button--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should go to show pairing matrix page when clicking on the view matrix button--
+------------- ---------------- ---------------
+
+Testcase: should go to show pairing matrix page when clicking on the view matrix button took 30.428 sec
+	Caused an ERROR
+Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:15)
+

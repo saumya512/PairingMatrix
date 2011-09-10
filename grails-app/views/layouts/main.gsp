@@ -22,7 +22,7 @@
         <ul>
             <li>Create New..
                 <ul>
-                    <li><g:link controller="programmer" action="create" name="createNewProgrammer">Programmer</g:link></li>
+                    <li><g:link controller="programmer" action="save" name="createNewProgrammer">Programmer</g:link></li>
 
                 </ul>
             </li>
