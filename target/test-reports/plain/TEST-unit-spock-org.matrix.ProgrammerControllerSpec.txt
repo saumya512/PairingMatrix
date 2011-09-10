@@ -1,0 +1,10 @@
+Testsuite: org.matrix.ProgrammerControllerSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1.862 sec
+------------- Standard Output ---------------
+--Output from should save programmer with Id and name--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should save programmer with Id and name--
+------------- ---------------- ---------------
+
+Testcase: should save programmer with Id and name took 1.83 sec
