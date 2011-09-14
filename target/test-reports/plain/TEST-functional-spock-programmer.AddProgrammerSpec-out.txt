@@ -1,1 +1,2 @@
---Output from should go to show pairing matrix page when clicking on the view matrix button--
+--Output from should go to view programmers page when a programmer is added--
+--Output from should not add the programmer to the table if he already exists--

@@ -1,10 +1,13 @@
 Testsuite: org.matrix.ProgrammerControllerSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1.862 sec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.247 sec
 ------------- Standard Output ---------------
 --Output from should save programmer with Id and name--
+--Output from should make the save action redirect to view programmers page--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from should save programmer with Id and name--
+--Output from should make the save action redirect to view programmers page--
 ------------- ---------------- ---------------
 
-Testcase: should save programmer with Id and name took 1.83 sec
+Testcase: should save programmer with Id and name took 0.225 sec
+Testcase: should make the save action redirect to view programmers page took 0.021 sec

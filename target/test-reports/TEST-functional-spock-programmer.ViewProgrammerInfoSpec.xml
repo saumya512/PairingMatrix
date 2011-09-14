@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="twu-pc" name="programmer.ViewProgrammerInfoSpec" tests="1" time="0.461" timestamp="2011-09-14T08:40:34">
+  <properties />
+  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page" time="0.453">
+    <error message="Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it&apos;s Navigator context" type="geb.error.UnresolvablePropertyException">geb.error.UnresolvablePropertyException: Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it&apos;s Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.content.SimplePageContent.propertyMissing(SimplePageContent.groovy)
+	at geb.content.TemplateDerivedPageContent.getProperty(TemplateDerivedPageContent.groovy)
+	at programmer.ViewProgrammerInfoSpec.should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page(ViewProgrammerInfoSpec.groovy:25)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+]]></system-out>
+  <system-err><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+]]></system-err>
+</testsuite>

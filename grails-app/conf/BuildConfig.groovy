@@ -28,6 +28,7 @@ grails.project.dependency.resolution = {
         //test "org.codehaus.geb:geb-core:0.6.0"
         test "org.codehaus.geb:geb-spock:0.6.0"
         test "org.seleniumhq.selenium:selenium-firefox-driver:2.4.0"
+        test "org.spockframework:spock-core:0.5-groovy-1.7"
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.13'

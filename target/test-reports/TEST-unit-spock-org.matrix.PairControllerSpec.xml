@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="twu-pc" name="org.matrix.PairControllerSpec" tests="1" time="0.536" timestamp="2011-09-14T08:40:15">
+  <properties />
+  <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="0.495">
+    <failure message="Condition not satisfied:
+
+Pair.count() == 1
+     |       |
+     0       false
+" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Pair.count() == 1
+     |       |
+     0       false
+
+	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from should save pair--
+]]></system-out>
+  <system-err><![CDATA[--Output from should save pair--
+]]></system-err>
+</testsuite>

@@ -11,9 +11,6 @@ form {
   form div.form-submit-area input {
     margin: 0; }
 
-/*form#save-p {*/
-  /*display: inline; }*/
-
 form-header {
   margin: 0 0 15px 20px;
   display: block;
@@ -30,4 +27,114 @@ input#programmer-name {
 #main-content {
   margin-left :200px;
   margin-top : 100px
+}
+
+.buttons#pair00{
+    background: red;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-top: 500px;
+    overflow: visible;
+    padding: 2px 6px;
+}
+
+.buttons#pair01{
+    background: red;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-top: 500px;
+    overflow: visible;
+    padding: 2px 6px;
+}
+
+.buttons#pair02{
+    background: red;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 500px;
+    overflow: visible;
+    padding: 2px 6px;
+}
+
+.buttons#pair10{
+    background: red;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-top: 550px;
+    overflow: visible;
+    padding: 2px 6px;
+}
+
+.buttons#pair11{
+    background: red;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-top: 550px;
+    overflow: visible;
+    padding: 2px 6px;
+}
+
+.buttons#pair20{
+    background: red;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-top: 600px;
+    overflow: visible;
+    padding: 2px 6px;
+}
+
+.label#prog1{
+    margin-left: 600px;
+    margin-top: 500px;
+}
+
+.label#prog2{
+    margin-left: 550px;
+    margin-top: 550px;
+}
+
+.label#prog3{
+    margin-left: 500px;
+    margin-top: 600px;
+}
+
+.label#prog4{
+    margin-left: 450px;
+    margin-top: 650px;
 }

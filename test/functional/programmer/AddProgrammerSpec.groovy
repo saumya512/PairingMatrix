@@ -5,34 +5,34 @@ import functionalTests.pages.programmer.AddProgrammerPage
 import functionalTests.pages.programmer.ShowPairingMatrixPage
 import org.matrix.Programmer
 import functionalTests.pages.programmer.ViewProgrammerInfoPage
+import functionalTests.pages.programmer.ViewProgrammersPage
 
 class AddProgrammerSpec extends PairingMatrixGebSpec{
 
-    def "should go to show pairing matrix page when clicking on the view matrix button"() {
-        given:
-        at AddProgrammerPage
-
-        when:
-        viewPairingMatrix.click()
-
-        then:
-        assert at(ShowPairingMatrixPage)
-    }
-
-    def "should go to view programmer info page when a programmer is added/saved"() {
-        setup:
-        def prog = new Programmer(programmerName: "saumya", programmerId: "1234")
+    def "should go to view programmers page when a programmer is added"() {
 
         when:
         to AddProgrammerPage
         and:
-        prog.save()
+        programmerId << "123"
+        programmerName << "saumya"
+        save.click()
+
 
         then:
-        assert at(ViewProgrammerInfoPage)
+        assert at(ViewProgrammersPage)
     }
 
+    def 'should not add the programmer to the table if he already exists'() {
 
+        when:
+        to AddProgrammerPage
+        and:
+        programmerId << "123"
+        programmerName << "saumya"
+        save.click()
 
-
+        then:
+        Programmer.count() == 1
+    }
 }

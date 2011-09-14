@@ -9,7 +9,7 @@ class ProgrammerControllerSpec extends ControllerSpec {
         def programmers = []
         mockDomain(Programmer, programmers)
         ProgrammerController controller = new ProgrammerController()
-        controller.params.programmerId = '1234'
+        controller.params.programmers = '1234'
         controller.params.programmerName = 'saumya'
 
         when:
@@ -17,5 +17,20 @@ class ProgrammerControllerSpec extends ControllerSpec {
 
         then:
         Programmer.count() == 1
+    }
+
+    def 'should make the save action redirect to view programmers page'() {
+        setup:
+        def programmers = []
+        mockDomain(Programmer, programmers)
+        ProgrammerController controller = new ProgrammerController()
+        controller.params.programmerId = '1234'
+        controller.params.programmerName = 'saumya'
+
+        when:
+        controller.save()
+
+        then:
+        redirectArgs == [action: "view", params: [id: "1234"]]
     }
 }

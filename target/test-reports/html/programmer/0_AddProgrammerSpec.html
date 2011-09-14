@@ -51,8 +51,8 @@
 <tr valign="top">
 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
 </tr>
-<tr valign="top" class="Error">
-<td><a href="0_AddProgrammerSpec.html" title="Display all tests">AddProgrammerSpec</a></td><td><a href="0_AddProgrammerSpec.html" title="Display all tests">1</a></td><td><a href="0_AddProgrammerSpec-errors.html" title="Display only errors">1</a></td><td>0</td><td>30.810</td><td>2011-09-10T19:10:12</td><td>twu-pc</td>
+<tr valign="top" class="Failure">
+<td><a href="0_AddProgrammerSpec.html" title="Display all tests">AddProgrammerSpec</a></td><td><a href="0_AddProgrammerSpec.html" title="Display all tests">2</a></td><td>0</td><td><a href="0_AddProgrammerSpec-fails.html" title="Display only failures">1</a></td><td>2.509</td><td>2011-09-14T08:40:35</td><td>twu-pc</td>
 </tr>
 </table>
 <h2>Tests</h2>
@@ -60,17 +60,19 @@
 <tr valign="top">
 <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
-<tr valign="top" class="Error">
-<td><a name="should go to show pairing matrix page when clicking on the view matrix button"></a>should go to show pairing matrix page when clicking on the view matrix button</td><td>Error</td><td>Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context<pre>geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it's Navigator context
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
-	at geb.Page.propertyMissing(Page.groovy)
-	at geb.Page.getProperty(Page.groovy)
-	at geb.Browser.propertyMissing(Browser.groovy:174)
-	at geb.Browser.getProperty(Browser.groovy)
-	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
-	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:15)
+<tr valign="top" class="TableRowColor">
+<td><a name="should go to view programmers page when a programmer is added"></a>should go to view programmers page when a programmer is added</td><td>Success</td><td></td><td>1.810</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a name="should not add the programmer to the table if he already exists"></a>should not add the programmer to the table if he already exists</td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 1            |       |            2       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           2       false
+
+	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:36)
 </pre>
-</td><td>30.795</td>
+</td><td>0.698</td>
 </tr>
 </table>
 <div class="Properties">

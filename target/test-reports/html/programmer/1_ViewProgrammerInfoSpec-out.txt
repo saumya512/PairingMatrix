@@ -1,0 +1,2 @@
+--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+

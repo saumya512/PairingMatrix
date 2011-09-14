@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="1" time="30.81" timestamp="2011-09-10T19:10:12">
+<testsuite errors="0" failures="1" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="2" time="2.509" timestamp="2011-09-14T08:40:35">
   <properties />
-  <testcase classname="programmer.AddProgrammerSpec" name="should go to show pairing matrix page when clicking on the view matrix button" time="30.795">
-    <error message="Unable to resolve viewPairingMatrix as content for Page, or as a property on it&apos;s Navigator context" type="geb.error.UnresolvablePropertyException">geb.error.UnresolvablePropertyException: Unable to resolve viewPairingMatrix as content for Page, or as a property on it&apos;s Navigator context
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
-	at geb.Page.propertyMissing(Page.groovy)
-	at geb.Page.getProperty(Page.groovy)
-	at geb.Browser.propertyMissing(Browser.groovy:174)
-	at geb.Browser.getProperty(Browser.groovy)
-	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
-	at programmer.AddProgrammerSpec.should go to show pairing matrix page when clicking on the view matrix button(AddProgrammerSpec.groovy:15)
-</error>
+  <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="1.81" />
+  <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.698">
+    <failure message="Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           2       false
+" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           2       false
+
+	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:36)
+</failure>
   </testcase>
-  <system-out><![CDATA[--Output from should go to show pairing matrix page when clicking on the view matrix button--
+  <system-out><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add the programmer to the table if he already exists--
 ]]></system-out>
-  <system-err><![CDATA[--Output from should go to show pairing matrix page when clicking on the view matrix button--
+  <system-err><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add the programmer to the table if he already exists--
 ]]></system-err>
 </testsuite>

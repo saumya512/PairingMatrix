@@ -1,0 +1,18 @@
+Testsuite: programmer.ViewProgrammerInfoSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.461 sec
+------------- Standard Output ---------------
+--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+------------- ---------------- ---------------
+
+Testcase: should go to show the same programmer's details on view programmers info page that is requested at view programmers page took 0.44 sec
+	Caused an ERROR
+Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it's Navigator context
+geb.error.UnresolvablePropertyException: Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.content.SimplePageContent.propertyMissing(SimplePageContent.groovy)
+	at geb.content.TemplateDerivedPageContent.getProperty(TemplateDerivedPageContent.groovy)
+	at programmer.ViewProgrammerInfoSpec.should go to show the same programmer's details on view programmers info page that is requested at view programmers page(ViewProgrammerInfoSpec.groovy:25)
+

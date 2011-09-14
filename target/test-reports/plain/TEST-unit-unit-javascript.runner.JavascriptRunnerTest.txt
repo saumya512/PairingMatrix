@@ -1,0 +1,10 @@
+Testsuite: javascript.runner.JavascriptRunnerTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 5.917 sec
+------------- Standard Output ---------------
+--Output from testJavascript--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testJavascript--
+------------- ---------------- ---------------
+
+Testcase: testJavascript took 5.9 sec

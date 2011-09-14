@@ -1,0 +1,25 @@
+Testsuite: org.matrix.PairControllerSpec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.536 sec
+------------- Standard Output ---------------
+--Output from should save pair--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should save pair--
+------------- ---------------- ---------------
+
+Testcase: should save pair took 0.489 sec
+	FAILED
+Condition not satisfied:
+
+Pair.count() == 1
+     |       |
+     0       false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Pair.count() == 1
+     |       |
+     0       false
+
+	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
+

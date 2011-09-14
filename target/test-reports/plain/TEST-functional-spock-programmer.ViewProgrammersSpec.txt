@@ -1,0 +1,10 @@
+Testsuite: programmer.ViewProgrammersSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 7.908 sec
+------------- Standard Output ---------------
+--Output from should go to show programmers detail page on clicking the view programmer info button--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should go to show programmers detail page on clicking the view programmer info button--
+------------- ---------------- ---------------
+
+Testcase: should go to show programmers detail page on clicking the view programmer info button took 7.89 sec

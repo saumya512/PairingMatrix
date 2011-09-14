@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="twu-pc" name="programmer.ViewProgrammersSpec" tests="1" time="7.908" timestamp="2011-09-14T08:40:26">
+  <properties />
+  <testcase classname="programmer.ViewProgrammersSpec" name="should go to show programmers detail page on clicking the view programmer info button" time="7.89" />
+  <system-out><![CDATA[--Output from should go to show programmers detail page on clicking the view programmer info button--
+]]></system-out>
+  <system-err><![CDATA[--Output from should go to show programmers detail page on clicking the view programmer info button--
+]]></system-err>
+</testsuite>

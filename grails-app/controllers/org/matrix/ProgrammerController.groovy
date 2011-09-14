@@ -9,24 +9,25 @@ class ProgrammerController {
 
     def save = {
         def newProgrammer = new Programmer(params)
-
+        def progExists = Programmer.findByProgrammerId(params.programmerId)
+        if(progExists == null)
+        {
         if(newProgrammer.save()) {
-            flash.message = "Programmer Added"
             redirect(action: 'view', params: [id: newProgrammer.programmerId])
         }
+        }
+        redirect(action: 'view', params: [id: newProgrammer.programmerId])
     }
 
     def view = {
-        def programmerToDisplay = (params.name) ? Programmer.get(params.uniqueId) : Programmer.findByProgrammerId(params.id)
-        if (params.name) {
-            programmerToDisplay.name = params.name
-        }
-        [programmerToDisplay: programmerToDisplay]
+        [programmerList: Programmer.list()]
     }
 
     def show = {
-        render "pairimg matrix"
+          def programmerToDisplay = Programmer.findByProgrammerId(params.programmerId)
+          [programmerToDisplay: programmerToDisplay]
     }
+
 }
 
 
