@@ -7,25 +7,37 @@
      <link rel="stylesheet" href="${resource(dir: 'css', file: 'forms')}" />
   </head>
 
+<g:javascript library="jquery" plugin="jquery"/>
+      <g:javascript library="clearTextField"/>
+
+<script type="text/javascript">
+    $(function() {
+        clearField("#prog-1");
+        clearField("#prog-2");
+        clearField("#prog-3");
+        clearField("#prog-4");
+    });
+</script>
+
   <h1 class="form-header">Pairing Matrix</h1>
 <br><br>
 <g:form action="updateMatrix" method="post">
     <div class="matrices">
         <div>
-            <g:textField name="pair00" id="pair-00" style="width: 10px" value="0"/>
-            <g:textField name="pair01" id="pair-01" style="width: 10px" value="0"/>
-            <g:textField name="pair02" id="pair-02" style="width: 10px" value="0"/>
+            <g:textField name="pair00" id="pair-00" style="width: 20px" value="0"/>
+            <g:textField name="pair01" id="pair-01" style="width: 20px" value="0"/>
+            <g:textField name="pair02" id="pair-02" style="width: 20px" value="0"/>
             <g:textField name="prog1" id="prog-1" value="enter programmer name"/>
             </div>
         <br>
         <div>
-            <g:textField name="pair10" id="pair-10" style="width: 10px" value="0"/>
-            <g:textField name="pair11" id="pair-11" style="width: 10px" value="0"/>
-            <g:textField name="prog2" id="prog-2" value="enter programmer name"/>
+            <g:textField name="pair10" id="pair-10" style="width: 20px" value="0"/>
+            <g:textField name="pair11" id="pair-11" style="width: 20px" value="0"/>
+            <g:textField name="prog2" id="prog-2" value="enter programmer name" onclick=""/>
         </div>
         <br>
         <div>
-            <g:textField name="pair20" id="pair-20" style="width: 10px" value="0"/>
+            <g:textField name="pair20" id="pair-20" style="width: 20px" value="0"/>
             <g:textField name="prog3" id="prog-3" value="enter programmer name"/>
             </div>
         <br>

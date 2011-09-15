@@ -11,12 +11,19 @@ class PairController {
         {
             def newPair = new Pair(programmerName: params.programmersName, pairProgrammerName: params.pairsName, noOfTimesPaired: params.noOfTimesTheyPaired)
             def existingPair = Pair.findByPairProgrammerNameAndProgrammerName(params.pairsName, params.programmersName)
+            def sameReversePair = Pair.findByPairProgrammerNameAndProgrammerName(params.programmersName, params.pairsName)
             if(existingPair!=null) {
                 existingPair.noOfTimesPaired= newPair.noOfTimesPaired
                 existingPair.save()
                 redirect(action: 'pairTable')
             }
-            else if(newPair.save()) {
+            else if(sameReversePair!=null) {
+                sameReversePair.noOfTimesPaired= newPair.noOfTimesPaired
+                sameReversePair.save()
+                redirect(action: 'pairTable')
+            }
+            else{
+                newPair.save()
                 redirect(action: 'pairTable')
             }
         }
@@ -51,9 +58,14 @@ class PairController {
         {
             def newPair = new Pair(programmerName: pair1, pairProgrammerName: pair2, noOfTimesPaired: timesPaired)
             def existingPair = Pair.findByPairProgrammerNameAndProgrammerName(pair2, pair1)
+            def sameReversePair = Pair.findByPairProgrammerNameAndProgrammerName(pair1, pair2)
             if(existingPair!=null) {
             existingPair.noOfTimesPaired= newPair.noOfTimesPaired
             existingPair.save()
+            }
+            else if(sameReversePair!=null) {
+            sameReversePair.noOfTimesPaired= newPair.noOfTimesPaired
+            sameReversePair.save()
             }
             else {
                 newPair.save()

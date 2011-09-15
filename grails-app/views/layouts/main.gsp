@@ -24,7 +24,6 @@
                     <li><g:link controller="programmer" action="create" name="createNewProgrammer">Add Programmer</g:link></li>
                 <li><g:link controller="programmer" action="view" name="viewProgrammers">Programmers</g:link></li>
                     <li><g:link controller="pair" action="pairTable" name="viewThePairTable">View Pair Table</g:link></li>
-                <li><g:link controller="pair" action="createMatrix" name="CreatePairingMatrix">Create Pairing Matrix</g:link></li>
                 <li><g:link controller="pair" action="showMatrix" name="showPairMatrix">Pairing Matrix</g:link></li>
                 </ul>
             </li>

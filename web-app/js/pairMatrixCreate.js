@@ -15,7 +15,7 @@ var createPairMatrix = function() {
         $("#prog2").val(prog2);
         $("#prog3").val(prog3);
         $("#prog4").val(prog4);
-        alert("pairing matrix created!!");
-        window.location.replace("http://localhost:8080/PairingMatrix/pair/showMatrix");
+       // alert("pairing matrix created!!");
+       // window.location.replace("http://localhost:8080/PairingMatrix/pair/showMatrix");
     });
 };

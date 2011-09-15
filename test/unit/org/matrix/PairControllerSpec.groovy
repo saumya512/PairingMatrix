@@ -67,4 +67,20 @@ class PairControllerSpec extends ControllerSpec {
         then:
         Pair.count() == 1
     }
+
+    def "should update pair if it already exists even in reverse direction when input is from pairing matrix" () {
+        setup:
+        def pairs = [new Pair(programmerName: 'saumya', pairProgrammerName: 'aditi', noOfTimesPaired: '2')]
+        mockDomain(Pair, pairs)
+        PairController controller = new PairController()
+                controller.params.pairProgrammersName = 'saumya'
+        controller.params.programmersName = 'aditi'
+        controller.params.noOfTimesTheyPaired = "5"
+
+        when:
+        controller.updateMatrix()
+
+        then:
+        Pair.count() == 1
+    }
 }

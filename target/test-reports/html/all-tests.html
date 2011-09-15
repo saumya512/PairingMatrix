@@ -17,58 +17,8 @@
 <tr valign="top">
 <th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="pair/0_IncompleteDetailsSpec.html">IncompleteDetailsSpec</a></td><td><a name="should go to the view programmers page when the back button is clicked"></a><a href="pair/0_IncompleteDetailsSpec.html#should go to the view programmers page when the back button is clicked">should go to the view programmers page when the back button is clicked</a></td><td>Success</td><td></td><td>6.986</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="programmer/1_AddProgrammerSpec.html">AddProgrammerSpec</a></td><td><a name="should go to view programmers page when a programmer is added"></a><a href="programmer/1_AddProgrammerSpec.html#should go to view programmers page when a programmer is added">should go to view programmers page when a programmer is added</a></td><td>Success</td><td></td><td>1.020</td>
-</tr>
 <tr valign="top" class="Failure">
-<td><a href="programmer/1_AddProgrammerSpec.html">AddProgrammerSpec</a></td><td><a name="should not add the programmer to the table if he already exists"></a><a href="programmer/1_AddProgrammerSpec.html#should not add the programmer to the table if he already exists">should not add the programmer to the table if he already exists</a></td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 1            |       |            2       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
-
-Programmer.count() == 1
-           |       |
-           2       false
-
-	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:36)
-</pre>
-</td><td>0.463</td>
-</tr>
-<tr valign="top" class="Error">
-<td><a href="programmer/2_ViewProgrammerInfoSpec.html">ViewProgrammerInfoSpec</a></td><td><a name="should go to show the same programmer's details on view programmers info page that is requested at view programmers page"></a><a href="programmer/2_ViewProgrammerInfoSpec.html#should go to show the same programmer's details on view programmers info page that is requested at view programmers page">should go to show the same programmer's details on view programmers info page that is requested at view programmers page</a></td><td>Error</td><td>Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it's Navigator context<pre>geb.error.UnresolvablePropertyException: Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it's Navigator context
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
-	at geb.content.SimplePageContent.propertyMissing(SimplePageContent.groovy)
-	at geb.content.TemplateDerivedPageContent.getProperty(TemplateDerivedPageContent.groovy)
-	at programmer.ViewProgrammerInfoSpec.should go to show the same programmer's details on view programmers info page that is requested at view programmers page(ViewProgrammerInfoSpec.groovy:25)
-</pre>
-</td><td>0.529</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a href="programmer/2_ViewProgrammerInfoSpec.html">ViewProgrammerInfoSpec</a></td><td><a name="should go to the incomplete details page if any of the field for the add pair is left empty"></a><a href="programmer/2_ViewProgrammerInfoSpec.html#should go to the incomplete details page if any of the field for the add pair is left empty">should go to the incomplete details page if any of the field for the add pair is left empty</a></td><td>Failure</td><td>geb.error.RequiredPageContentNotPresent: The required page content 'programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])' is not present<pre>junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content 'programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])' is not present
-	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
-	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:107)
-	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
-	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
-	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
-	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
-	at geb.Page.propertyMissing(Page.groovy)
-	at geb.Page.getProperty(Page.groovy)
-	at geb.Browser.propertyMissing(Browser.groovy:174)
-	at geb.Browser.getProperty(Browser.groovy)
-	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
-	at programmer.ViewProgrammerInfoSpec.should go to the incomplete details page if any of the field for the add pair is left empty(ViewProgrammerInfoSpec.groovy:32)
-</pre>
-</td><td>1.492</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="programmer/3_ViewProgrammersSpec.html">ViewProgrammersSpec</a></td><td><a name="should go to show programmers detail page on clicking the view programmer info button"></a><a href="programmer/3_ViewProgrammersSpec.html#should go to show programmers detail page on clicking the view programmer info button">should go to show programmers detail page on clicking the view programmer info button</a></td><td>Success</td><td></td><td>1.079</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="programmer/3_ViewProgrammersSpec.html">ViewProgrammersSpec</a></td><td><a name="should remain on view programmers page if a non existing id is input in the programmer id input text box"></a><a href="programmer/3_ViewProgrammersSpec.html#should remain on view programmers page if a non existing id is input in the programmer id input text box">should remain on view programmers page if a non existing id is input in the programmer id input text box</a></td><td>Success</td><td></td><td>0.419</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a href="org/matrix/4_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should save pair"></a><a href="org/matrix/4_PairControllerSpec.html#should save pair">should save pair</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
+<td><a href="org/matrix/0_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should save pair"></a><a href="org/matrix/0_PairControllerSpec.html#should save pair">should save pair</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
      |       |
@@ -76,16 +26,16 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
 </pre>
-</td><td>0.824</td>
+</td><td>1.438</td>
 </tr>
 <tr valign="top" class="TableRowColor">
-<td><a href="org/matrix/4_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should update pair if it already exists"></a><a href="org/matrix/4_PairControllerSpec.html#should update pair if it already exists">should update pair if it already exists</a></td><td>Success</td><td></td><td>0.033</td>
+<td><a href="org/matrix/0_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should update pair if it already exists"></a><a href="org/matrix/0_PairControllerSpec.html#should update pair if it already exists">should update pair if it already exists</a></td><td>Success</td><td></td><td>0.031</td>
 </tr>
 <tr valign="top" class="TableRowColor">
-<td><a href="org/matrix/4_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should update pair if it already exists when input is from pairing matrix"></a><a href="org/matrix/4_PairControllerSpec.html#should update pair if it already exists when input is from pairing matrix">should update pair if it already exists when input is from pairing matrix</a></td><td>Success</td><td></td><td>0.031</td>
+<td><a href="org/matrix/0_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should update pair if it already exists when input is from pairing matrix"></a><a href="org/matrix/0_PairControllerSpec.html#should update pair if it already exists when input is from pairing matrix">should update pair if it already exists when input is from pairing matrix</a></td><td>Success</td><td></td><td>0.042</td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a href="org/matrix/4_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should add pair when input is from pairing matrix"></a><a href="org/matrix/4_PairControllerSpec.html#should add pair when input is from pairing matrix">should add pair when input is from pairing matrix</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
+<td><a href="org/matrix/0_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should add pair when input is from pairing matrix"></a><a href="org/matrix/0_PairControllerSpec.html#should add pair when input is from pairing matrix">should add pair when input is from pairing matrix</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
      |       |
@@ -93,36 +43,10 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should add pair when input is from pairing matrix(PairControllerSpec.groovy:68)
 </pre>
-</td><td>0.030</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a href="org/matrix/5_ProgrammerControllerSpec.html">ProgrammerControllerSpec</a></td><td><a name="should save programmer with Id and name"></a><a href="org/matrix/5_ProgrammerControllerSpec.html#should save programmer with Id and name">should save programmer with Id and name</a></td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 1            |       |            0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
-
-Programmer.count() == 1
-           |       |
-           0       false
-
-	at org.matrix.ProgrammerControllerSpec.should save programmer with Id and name(ProgrammerControllerSpec.groovy:19)
-</pre>
-</td><td>0.088</td>
+</td><td>0.039</td>
 </tr>
 <tr valign="top" class="TableRowColor">
-<td><a href="org/matrix/5_ProgrammerControllerSpec.html">ProgrammerControllerSpec</a></td><td><a name="should make the save action redirect to view programmers page"></a><a href="org/matrix/5_ProgrammerControllerSpec.html#should make the save action redirect to view programmers page">should make the save action redirect to view programmers page</a></td><td>Success</td><td></td><td>0.018</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="javascript/runner/6_JavascriptRunnerTest.html">JavascriptRunnerTest</a></td><td><a name="testJavascript"></a><a href="javascript/runner/6_JavascriptRunnerTest.html#testJavascript">testJavascript</a></td><td>Success</td><td></td><td>5.654</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="org/matrix/7_PairControllerTests.html">PairControllerTests</a></td><td><a name="testSomething"></a><a href="org/matrix/7_PairControllerTests.html#testSomething">testSomething</a></td><td>Success</td><td></td><td>0.759</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="org/matrix/8_PairTests.html">PairTests</a></td><td><a name="testSomething"></a><a href="org/matrix/8_PairTests.html#testSomething">testSomething</a></td><td>Success</td><td></td><td>0.005</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="org/matrix/9_ProgrammerTests.html">ProgrammerTests</a></td><td><a name="testSomething"></a><a href="org/matrix/9_ProgrammerTests.html#testSomething">testSomething</a></td><td>Success</td><td></td><td>0.203</td>
-</tr>
-<tr valign="top" class="TableRowColor">
-<td><a href="pairingmatrix/10_PairMatrixTests.html">PairMatrixTests</a></td><td><a name="testSomething"></a><a href="pairingmatrix/10_PairMatrixTests.html#testSomething">testSomething</a></td><td>Success</td><td></td><td>0.007</td>
+<td><a href="org/matrix/0_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should update pair if it already exists even in reverse direction when input is from pairing matrix"></a><a href="org/matrix/0_PairControllerSpec.html#should update pair if it already exists even in reverse direction when input is from pairing matrix">should update pair if it already exists even in reverse direction when input is from pairing matrix</a></td><td>Success</td><td></td><td>0.062</td>
 </tr>
 </table>
 </body>
