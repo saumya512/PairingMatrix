@@ -25,27 +25,33 @@
 
   <h1 class="form-header">Pairing Matrix</h1>
 <br><br>
+<g:form action="showMatrix" method="post">
     <div class="matrices">
         <div>
           <input type="button"  id="pair00" value="0">
+            <g:textField name="pair00" id="pair-00"/>
+
         <input type="button"  id="pair01" value="0">
         <input type="button"  id="pair02" value="0">
-         <label id="prog1">Programmer1</label>
+            <g:textField name="prog1" id="prog-1"/>
             </div>
         <br>
         <div>
         <input type="button"  id="pair10" value="0">
         <input type="button"  id="pair11" value="0">
-         <label id="prog2">Programmer 2</label>
-            </div>
+            <g:textField name="prog2" id="prog-2"/>
+        </div>
         <br>
         <div>
         <input type="button"  id="pair20" value="0">
-                <label id="prog3">Programmer 3</label>
+            <g:textField name="prog3" id="prog-3"/>
             </div>
         <br>
-        <label id="prog4">Programmer 4</label>
+        <g:textField name="prog4" id="prog-4"/>
      </div>
 <br><br>
-<input type="submit" id="add-programmers" value="add programmers to matrix"/>
+    <div class="form-submit-area">
+<input type="submit" id="update-pair-table" value="update pairing info"/>
+    </div>
+    </g:form>
 </html>

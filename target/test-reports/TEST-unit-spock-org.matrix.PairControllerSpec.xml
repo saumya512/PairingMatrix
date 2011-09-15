@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="twu-pc" name="org.matrix.PairControllerSpec" tests="1" time="0.536" timestamp="2011-09-14T08:40:15">
+<testsuite errors="0" failures="2" hostname="twu-pc" name="org.matrix.PairControllerSpec" tests="2" time="0.762" timestamp="2011-09-15T04:58:01">
   <properties />
-  <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="0.495">
+  <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="0.727">
     <failure message="Condition not satisfied:
 
 Pair.count() == 1
@@ -16,8 +16,25 @@ Pair.count() == 1
 	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
 </failure>
   </testcase>
+  <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists" time="0.019">
+    <failure message="Condition not satisfied:
+
+Pair.count() == 1
+     |       |
+     0       false
+" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Pair.count() == 1
+     |       |
+     0       false
+
+	at org.matrix.PairControllerSpec.should update pair if it already exists(PairControllerSpec.groovy:37)
+</failure>
+  </testcase>
   <system-out><![CDATA[--Output from should save pair--
+--Output from should update pair if it already exists--
 ]]></system-out>
   <system-err><![CDATA[--Output from should save pair--
+--Output from should update pair if it already exists--
 ]]></system-err>
 </testsuite>

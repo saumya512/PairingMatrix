@@ -7,8 +7,8 @@ class PairController {
     }
 
     def save = {
-        def newPair = new Pair(programmerName: params.programmersName, pairProgrammerName: params.pairName, noOfTimesPaired: params.noOfTimesPaired)
-        def existingPair = Pair.findByPairProgrammerNameAndProgrammerName(params.pairName, params.programmersName)
+        def newPair = new Pair(programmerName: params.programmersName, pairProgrammerName: params.pairsName, noOfTimesPaired: params.noOfTimesTheyPaired)
+        def existingPair = Pair.findByPairProgrammerNameAndProgrammerName(params.pairsName, params.programmersName)
         if(existingPair!=null) {
             existingPair.noOfTimesPaired= newPair.noOfTimesPaired
             existingPair.save()
@@ -28,7 +28,14 @@ class PairController {
     }
 
     def showMatrix = {
-      render : "show"
+      def newPair = new Pair(programmerName: params.programmersName, pairProgrammerName: params.pairsName, noOfTimesPaired: params.noOfTimesTheyPaired)
+        def existingPair = Pair.findByPairProgrammerNameAndProgrammerName(params.pairsName, params.programmersName)
+        if(existingPair!=null) {
+            existingPair.noOfTimesPaired= newPair.noOfTimesPaired
+            existingPair.save()
+        }
+        else if(newPair.save()) {
+        }
     }
 
 

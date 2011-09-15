@@ -24,22 +24,16 @@
 <h1>Add Pairs :</h1>
 <g:form controller="pair" action="save" method="POST">
     <br>
-    <label>Programmer ID</label>
-    <g:textField name="programmersID" id="programmer-id"/>
-    <br><br>
     <label>Programmer Name</label>
     <g:textField name="programmersName" id="programmer-name"/>
     <br><br>
     <label>Pair Programmer Name</label>
     <br>
-    <label>Pair Name</label>
-    <g:textField name="pairId" id="pair-id"/>
-    <br><br>
-      <g:textField name="pairName" id="pair-name"/>
+      <g:textField name="pairsName" id="pair-name"/>
     <br>
     <label>No of times paired</label>
     <br>
-      <g:textField name="noOfTimesPaired" id="times-paired"/>
+      <g:textField name="noOfTimesTheyPaired" id="times-paired"/>
     <br>
     <div class="form-submit-area">
         <input type="submit" id="save" value="save"/>
