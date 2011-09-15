@@ -8,7 +8,13 @@ class PairController {
 
     def save = {
         def newPair = new Pair(programmerName: params.programmersName, pairProgrammerName: params.pairName, noOfTimesPaired: params.noOfTimesPaired)
-        if(newPair.save()) {
+        def existingPair = Pair.findByPairProgrammerNameAndProgrammerName(params.pairName, params.programmersName)
+        if(existingPair!=null) {
+            existingPair.noOfTimesPaired= newPair.noOfTimesPaired
+            existingPair.save()
+            redirect(action: 'pairTable')
+        }
+        else if(newPair.save()) {
             redirect(action: 'pairTable')
         }
     }
