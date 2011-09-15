@@ -2,9 +2,9 @@ package programmer
 
 import functionalTests.PairingMatrixGebSpec
 import functionalTests.pages.programmer.AddProgrammerPage
-import functionalTests.pages.programmer.ShowPairingMatrixPage
+
 import org.matrix.Programmer
-import functionalTests.pages.programmer.ViewProgrammerInfoPage
+
 import functionalTests.pages.programmer.ViewProgrammersPage
 
 class AddProgrammerSpec extends PairingMatrixGebSpec{

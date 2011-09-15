@@ -1,1 +1,2 @@
 --Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+--Output from should go to the incomplete details page if any of the field for the add pair is left empty--

@@ -1,0 +1,3 @@
+--Output from should go to show programmers detail page on clicking the view programmer info button--
+--Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
+

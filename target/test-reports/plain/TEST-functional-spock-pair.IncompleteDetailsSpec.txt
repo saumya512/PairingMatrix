@@ -1,0 +1,10 @@
+Testsuite: pair.IncompleteDetailsSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 6.992 sec
+------------- Standard Output ---------------
+--Output from should go to the view programmers page when the back button is clicked--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should go to the view programmers page when the back button is clicked--
+------------- ---------------- ---------------
+
+Testcase: should go to the view programmers page when the back button is clicked took 6.986 sec

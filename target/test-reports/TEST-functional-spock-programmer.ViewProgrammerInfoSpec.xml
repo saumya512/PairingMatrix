@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="twu-pc" name="programmer.ViewProgrammerInfoSpec" tests="1" time="0.461" timestamp="2011-09-14T08:40:34">
+<testsuite errors="1" failures="1" hostname="twu-pc" name="programmer.ViewProgrammerInfoSpec" tests="2" time="2.031" timestamp="2011-09-15T09:19:09">
   <properties />
-  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page" time="0.453">
+  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page" time="0.529">
     <error message="Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it&apos;s Navigator context" type="geb.error.UnresolvablePropertyException">geb.error.UnresolvablePropertyException: Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it&apos;s Navigator context
 	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
 	at geb.content.SimplePageContent.propertyMissing(SimplePageContent.groovy)
@@ -9,8 +9,27 @@
 	at programmer.ViewProgrammerInfoSpec.should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page(ViewProgrammerInfoSpec.groovy:25)
 </error>
   </testcase>
+  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to the incomplete details page if any of the field for the add pair is left empty" time="1.492">
+    <failure message="geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:107)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.ViewProgrammerInfoSpec.should go to the incomplete details page if any of the field for the add pair is left empty(ViewProgrammerInfoSpec.groovy:32)
+</failure>
+  </testcase>
   <system-out><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+--Output from should go to the incomplete details page if any of the field for the add pair is left empty--
 ]]></system-out>
   <system-err><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+--Output from should go to the incomplete details page if any of the field for the add pair is left empty--
 ]]></system-err>
 </testsuite>

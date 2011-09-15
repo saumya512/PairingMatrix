@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
  <head>
-      <title>Saved Pair Details</title>
+      <title>Sorry incomplete Details</title>
       <meta name="layout" content="main">
       <link rel="stylesheet" href="${resource(dir: 'css', file: 'forms')}" />
 
@@ -14,23 +14,10 @@
 
   </head>
 
-  <h1 class="form-header">Pair Table : </h1>
-  <table name="pairs" id="pairs">
-        <tr>
-            <th>Programmer Name</th>
-            <th>Pair Name</th>
-            <th>Number of times paired</th>
-        </tr>
-        <g:if test="${pairList?.size > 0}">
-        <g:each in="${pairList}">
-        <tr name="pairRow" id="pair-row">
-            <td><label>${it.programmerName}</label></td>
-            <td><label>${it.pairProgrammerName}</label></td>
-            <td><label>${it.noOfTimesPaired}</label></td>
-        </tr>
-        </g:each>
-        </g:if>
-    </table>
-
-
+  <h1 class="form-header">Sorry! you did not complete the details!!</h1>
+ <g:form controller="programmer" action="view">
+     <div class="form-submit-area">
+        <input type="submit" id="back" value="back"/>
+    </div>
+ </g:form>
 </html>

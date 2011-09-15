@@ -25,7 +25,14 @@ class ProgrammerController {
 
     def show = {
           def programmerToDisplay = Programmer.findByProgrammerId(params.programmerId)
+        if(programmerToDisplay!=null)
           [programmerToDisplay: programmerToDisplay]
+        else
+            redirect(action: 'view')
+    }
+
+    def incompleteDetails = {
+        render : "incomplete details"
     }
 
 }

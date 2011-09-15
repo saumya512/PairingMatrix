@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="twu-pc" name="org.matrix.PairControllerTests" tests="1" time="0.576" timestamp="2011-09-15T04:58:00">
+<testsuite errors="0" failures="0" hostname="twu-pc" name="org.matrix.PairControllerTests" tests="1" time="0.766" timestamp="2011-09-15T09:18:47">
   <properties />
-  <testcase classname="org.matrix.PairControllerTests" name="testSomething" time="0.562" />
+  <testcase classname="org.matrix.PairControllerTests" name="testSomething" time="0.759" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

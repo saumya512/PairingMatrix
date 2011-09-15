@@ -1,9 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="2" hostname="twu-pc" id="0" name="PairControllerSpec" package="org.matrix" tests="2" time="0.762" timestamp="2011-09-15T04:58:01">
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="IncompleteDetailsSpec" package="pair" tests="1" time="6.992" timestamp="2011-09-15T09:19:01">
       <properties />
 
-      <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="0.727">
+      <testcase classname="pair.IncompleteDetailsSpec" name="should go to the view programmers page when the back button is clicked" time="6.986" />
+
+      <system-out><![CDATA[--Output from should go to the view programmers page when the back button is clicked--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to the view programmers page when the back button is clicked--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="twu-pc" id="1" name="AddProgrammerSpec" package="programmer" tests="2" time="1.484" timestamp="2011-09-15T09:19:11">
+      <properties />
+
+      <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="1.02" />
+
+      <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.463">
+          <failure message="Condition not satisfied:  Programmer.count() == 1            |       |            2       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           2       false
+
+	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:36)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add the programmer to the table if he already exists--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add the programmer to the table if he already exists--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="1" hostname="twu-pc" id="2" name="ViewProgrammerInfoSpec" package="programmer" tests="2" time="2.031" timestamp="2011-09-15T09:19:09">
+      <properties />
+
+      <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page" time="0.529">
+          <error message="Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it&apos;s Navigator context" type="geb.error.UnresolvablePropertyException">geb.error.UnresolvablePropertyException: Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it&apos;s Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.content.SimplePageContent.propertyMissing(SimplePageContent.groovy)
+	at geb.content.TemplateDerivedPageContent.getProperty(TemplateDerivedPageContent.groovy)
+	at programmer.ViewProgrammerInfoSpec.should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page(ViewProgrammerInfoSpec.groovy:25)
+</error>
+
+      </testcase>
+
+      <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to the incomplete details page if any of the field for the add pair is left empty" time="1.492">
+          <failure message="geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:107)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.ViewProgrammerInfoSpec.should go to the incomplete details page if any of the field for the add pair is left empty(ViewProgrammerInfoSpec.groovy:32)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+--Output from should go to the incomplete details page if any of the field for the add pair is left empty--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+--Output from should go to the incomplete details page if any of the field for the add pair is left empty--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="3" name="ViewProgrammersSpec" package="programmer" tests="2" time="1.513" timestamp="2011-09-15T09:19:08">
+      <properties />
+
+      <testcase classname="programmer.ViewProgrammersSpec" name="should go to show programmers detail page on clicking the view programmer info button" time="1.079" />
+
+      <testcase classname="programmer.ViewProgrammersSpec" name="should remain on view programmers page if a non existing id is input in the programmer id input text box" time="0.419" />
+
+      <system-out><![CDATA[--Output from should go to show programmers detail page on clicking the view programmer info button--
+--Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to show programmers detail page on clicking the view programmer info button--
+--Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="twu-pc" id="4" name="PairControllerSpec" package="org.matrix" tests="4" time="0.932" timestamp="2011-09-15T09:18:49">
+      <properties />
+
+      <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="0.824">
           <failure message="Condition not satisfied:  Pair.count() == 1      |       |      0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
@@ -15,31 +110,113 @@ Pair.count() == 1
 
       </testcase>
 
-      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists" time="0.019">
+      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists" time="0.033" />
+
+      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists when input is from pairing matrix" time="0.031" />
+
+      <testcase classname="org.matrix.PairControllerSpec" name="should add pair when input is from pairing matrix" time="0.03">
           <failure message="Condition not satisfied:  Pair.count() == 1      |       |      0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
      |       |
      0       false
 
-	at org.matrix.PairControllerSpec.should update pair if it already exists(PairControllerSpec.groovy:37)
+	at org.matrix.PairControllerSpec.should add pair when input is from pairing matrix(PairControllerSpec.groovy:68)
 </failure>
 
       </testcase>
 
       <system-out><![CDATA[--Output from should save pair--
 --Output from should update pair if it already exists--
+--Output from should update pair if it already exists when input is from pairing matrix--
+--Output from should add pair when input is from pairing matrix--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from should save pair--
 --Output from should update pair if it already exists--
+--Output from should update pair if it already exists when input is from pairing matrix--
+--Output from should add pair when input is from pairing matrix--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="twu-pc" id="1" name="PairControllerTests" package="org.matrix" tests="1" time="0.576" timestamp="2011-09-15T04:58:00">
+  <testsuite errors="0" failures="1" hostname="twu-pc" id="5" name="ProgrammerControllerSpec" package="org.matrix" tests="2" time="0.107" timestamp="2011-09-15T09:18:50">
       <properties />
 
-      <testcase classname="org.matrix.PairControllerTests" name="testSomething" time="0.562" />
+      <testcase classname="org.matrix.ProgrammerControllerSpec" name="should save programmer with Id and name" time="0.088">
+          <failure message="Condition not satisfied:  Programmer.count() == 1            |       |            0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           0       false
+
+	at org.matrix.ProgrammerControllerSpec.should save programmer with Id and name(ProgrammerControllerSpec.groovy:19)
+</failure>
+
+      </testcase>
+
+      <testcase classname="org.matrix.ProgrammerControllerSpec" name="should make the save action redirect to view programmers page" time="0.018" />
+
+      <system-out><![CDATA[--Output from should save programmer with Id and name--
+--Output from should make the save action redirect to view programmers page--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should save programmer with Id and name--
+--Output from should make the save action redirect to view programmers page--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="6" name="JavascriptRunnerTest" package="javascript.runner" tests="1" time="5.67" timestamp="2011-09-15T09:18:41">
+      <properties />
+
+      <testcase classname="javascript.runner.JavascriptRunnerTest" name="testJavascript" time="5.654" />
+
+      <system-out><![CDATA[--Output from testJavascript--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testJavascript--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="7" name="PairControllerTests" package="org.matrix" tests="1" time="0.766" timestamp="2011-09-15T09:18:47">
+      <properties />
+
+      <testcase classname="org.matrix.PairControllerTests" name="testSomething" time="0.759" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="8" name="PairTests" package="org.matrix" tests="1" time="0.015" timestamp="2011-09-15T09:18:47">
+      <properties />
+
+      <testcase classname="org.matrix.PairTests" name="testSomething" time="0.0050" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="9" name="ProgrammerTests" package="org.matrix" tests="1" time="0.211" timestamp="2011-09-15T09:18:47">
+      <properties />
+
+      <testcase classname="org.matrix.ProgrammerTests" name="testSomething" time="0.203" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="10" name="PairMatrixTests" package="pairingmatrix" tests="1" time="0.019" timestamp="2011-09-15T09:18:48">
+      <properties />
+
+      <testcase classname="pairingmatrix.PairMatrixTests" name="testSomething" time="0.0070" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>

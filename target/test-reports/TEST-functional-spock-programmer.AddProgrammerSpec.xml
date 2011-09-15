@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="2" time="2.509" timestamp="2011-09-14T08:40:35">
+<testsuite errors="0" failures="1" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="2" time="1.484" timestamp="2011-09-15T09:19:11">
   <properties />
-  <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="1.81" />
-  <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.698">
+  <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="1.02" />
+  <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.463">
     <failure message="Condition not satisfied:
 
 Programmer.count() == 1

@@ -22,8 +22,8 @@ class PairControllerSpec extends ControllerSpec {
 
     def "should update pair if it already exists" () {
         setup:
-        new Pair(programmerName: 'saumya', pairProgrammerName: 'aditi', noOfTimesPaired: '2')
-        def pairs = []
+
+        def pairs = [new Pair(programmerName: 'saumya', pairProgrammerName: 'aditi', noOfTimesPaired: '2')]
         mockDomain(Pair, pairs)
         PairController controller = new PairController()
         controller.params.pairProgrammersName = 'aditi'
@@ -32,6 +32,37 @@ class PairControllerSpec extends ControllerSpec {
 
         when:
         controller.save()
+
+        then:
+        Pair.count() == 1
+    }
+
+    def "should update pair if it already exists when input is from pairing matrix" () {
+        setup:
+        def pairs = [new Pair(programmerName: 'saumya', pairProgrammerName: 'aditi', noOfTimesPaired: '2')]
+        mockDomain(Pair, pairs)
+        PairController controller = new PairController()
+                controller.params.pairProgrammersName = 'aditi'
+        controller.params.programmersName = 'saumya'
+        controller.params.noOfTimesTheyPaired = "5"
+
+        when:
+        controller.updateMatrix()
+
+        then:
+        Pair.count() == 1
+    }
+
+    def "should add pair when input is from pairing matrix" () {
+        def pairs = []
+        mockDomain(Pair, pairs)
+        PairController controller = new PairController()
+                controller.params.pairProgrammersName = 'aditi'
+        controller.params.programmersName = 'saumya'
+        controller.params.noOfTimesTheyPaired = "5"
+
+        when:
+        controller.updateMatrix()
 
         then:
         Pair.count() == 1

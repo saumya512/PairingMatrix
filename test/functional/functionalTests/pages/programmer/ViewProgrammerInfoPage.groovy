@@ -8,6 +8,9 @@ class ViewProgrammerInfoPage extends Page{
     static content = {
         progId { $("label", id: "prog-id")}
         progName { $("label", id: "prog-name")}
-        addPair { $("button", id: "save")}
+        programmersName { $("input", id: "programmer-name")}
+        pairsName { $("input", id: "pair-name")}
+        timesPaired { $("input", id: "times-paired")}
+        addPair { $("input", id: "save")}
     }
 }

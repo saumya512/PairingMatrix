@@ -2,7 +2,7 @@ package programmer
 
 import functionalTests.PairingMatrixGebSpec
 import functionalTests.pages.programmer.ViewProgrammerInfoPage
-import functionalTests.pages.programmer.ShowPairingMatrixPage
+
 import functionalTests.pages.programmer.ViewProgrammersPage
 import org.matrix.Programmer
 import functionalTests.pages.programmer.AddProgrammerPage
@@ -22,5 +22,19 @@ class ViewProgrammersSpec extends PairingMatrixGebSpec{
 
         then:
         assert at(ViewProgrammerInfoPage)
+    }
+
+    def "should remain on view programmers page if a non existing id is input in the programmer id input text box"() {
+        setup:
+        new Programmer(programmerId: "1", programmerName: "saumya").save()
+
+        when:
+        to ViewProgrammersPage
+        and:
+        programmerId << "2"
+        viewProgrammer.click()
+
+        then:
+        assert at(ViewProgrammersPage)
     }
 }

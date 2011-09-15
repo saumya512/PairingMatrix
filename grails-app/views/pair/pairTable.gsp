@@ -15,7 +15,7 @@
   </head>
 
   <h1 class="form-header">Pairing Table : </h1>
-
+<div style="overflow:auto; height:250px; width:300px;">
 <table name="pairs" id="pairs">
         <tr>
             <th>Programmer Name</th>
@@ -32,6 +32,7 @@
         </g:each>
         </g:if>
     </table>
+    </div>
 
 
 </html>

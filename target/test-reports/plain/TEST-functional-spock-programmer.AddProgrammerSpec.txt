@@ -1,5 +1,5 @@
 Testsuite: programmer.AddProgrammerSpec
-Tests run: 2, Failures: 1, Errors: 0, Time elapsed: 2.509 sec
+Tests run: 2, Failures: 1, Errors: 0, Time elapsed: 1.484 sec
 ------------- Standard Output ---------------
 --Output from should go to view programmers page when a programmer is added--
 --Output from should not add the programmer to the table if he already exists--
@@ -9,8 +9,8 @@ Tests run: 2, Failures: 1, Errors: 0, Time elapsed: 2.509 sec
 --Output from should not add the programmer to the table if he already exists--
 ------------- ---------------- ---------------
 
-Testcase: should go to view programmers page when a programmer is added took 1.81 sec
-Testcase: should not add the programmer to the table if he already exists took 0.427 sec
+Testcase: should go to view programmers page when a programmer is added took 1.02 sec
+Testcase: should not add the programmer to the table if he already exists took 0.458 sec
 	FAILED
 Condition not satisfied:
 
