@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="2" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="3" time="1.869" timestamp="2011-09-15T12:02:13">
+<testsuite errors="0" failures="2" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="3" time="2.168" timestamp="2011-09-15T12:29:32">
   <properties />
-  <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="0.664" />
-  <testcase classname="programmer.AddProgrammerSpec" name="should not add programmer with no ID" time="0.789">
+  <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="0.874" />
+  <testcase classname="programmer.AddProgrammerSpec" name="should not add programmer with no ID" time="0.84">
     <failure message="Condition not satisfied:
 
 Programmer.count() == 0
@@ -17,7 +17,7 @@ Programmer.count() == 0
 	at programmer.AddProgrammerSpec.should not add programmer with no ID(AddProgrammerSpec.groovy:35)
 </failure>
   </testcase>
-  <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.415">
+  <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.452">
     <failure message="Condition not satisfied:
 
 Programmer.count() == 1

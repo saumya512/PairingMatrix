@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="twu-pc" name="programmer.ViewProgrammersSpec" tests="2" time="1.888" timestamp="2011-09-15T12:02:09">
+<testsuite errors="0" failures="0" hostname="twu-pc" name="programmer.ViewProgrammersSpec" tests="2" time="1.923" timestamp="2011-09-15T12:29:29">
   <properties />
-  <testcase classname="programmer.ViewProgrammersSpec" name="should go to show programmers detail page on clicking the view programmer info button" time="1.487" />
-  <testcase classname="programmer.ViewProgrammersSpec" name="should remain on view programmers page if a non existing id is input in the programmer id input text box" time="0.395" />
+  <testcase classname="programmer.ViewProgrammersSpec" name="should go to show programmers detail page on clicking the view programmer info button" time="1.458" />
+  <testcase classname="programmer.ViewProgrammersSpec" name="should remain on view programmers page if a non existing id is input in the programmer id input text box" time="0.459" />
   <system-out><![CDATA[--Output from should go to show programmers detail page on clicking the view programmer info button--
 --Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
 ]]></system-out>

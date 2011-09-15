@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="twu-pc" name="org.matrix.ProgrammerControllerSpec" tests="2" time="0.108" timestamp="2011-09-15T12:01:51">
+<testsuite errors="0" failures="1" hostname="twu-pc" name="org.matrix.ProgrammerControllerSpec" tests="2" time="0.149" timestamp="2011-09-15T12:29:12">
   <properties />
-  <testcase classname="org.matrix.ProgrammerControllerSpec" name="should save programmer with Id and name" time="0.09">
+  <testcase classname="org.matrix.ProgrammerControllerSpec" name="should save programmer with Id and name" time="0.13">
     <failure message="Condition not satisfied:
 
 Programmer.count() == 1
@@ -16,7 +16,7 @@ Programmer.count() == 1
 	at org.matrix.ProgrammerControllerSpec.should save programmer with Id and name(ProgrammerControllerSpec.groovy:18)
 </failure>
   </testcase>
-  <testcase classname="org.matrix.ProgrammerControllerSpec" name="should make the save action redirect to view programmers page" time="0.016" />
+  <testcase classname="org.matrix.ProgrammerControllerSpec" name="should make the save action redirect to view programmers page" time="0.018" />
   <system-out><![CDATA[--Output from should save programmer with Id and name--
 --Output from should make the save action redirect to view programmers page--
 ]]></system-out>

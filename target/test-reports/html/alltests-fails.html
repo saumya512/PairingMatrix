@@ -33,7 +33,7 @@
 	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
 	at pair.IncompleteDetailsSpec.should go to the view programmers page when the back button is clicked(IncompleteDetailsSpec.groovy:15)
 </pre>
-</td><td>6.682</td>
+</td><td>6.259</td>
 </tr>
 <tr valign="top" class="Failure">
 <td><a href="programmer/1_AddProgrammerSpec.html">AddProgrammerSpec</a></td><td><a name="should not add programmer with no ID"></a><a href="programmer/1_AddProgrammerSpec.html#should not add programmer with no ID">should not add programmer with no ID</a></td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 0            |       |            2       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
@@ -44,7 +44,7 @@ Programmer.count() == 0
 
 	at programmer.AddProgrammerSpec.should not add programmer with no ID(AddProgrammerSpec.groovy:35)
 </pre>
-</td><td>0.789</td>
+</td><td>0.840</td>
 </tr>
 <tr valign="top" class="Failure">
 <td><a href="programmer/1_AddProgrammerSpec.html">AddProgrammerSpec</a></td><td><a name="should not add the programmer to the table if he already exists"></a><a href="programmer/1_AddProgrammerSpec.html#should not add the programmer to the table if he already exists">should not add the programmer to the table if he already exists</a></td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 1            |       |            2       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
@@ -55,7 +55,7 @@ Programmer.count() == 1
 
 	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:50)
 </pre>
-</td><td>0.415</td>
+</td><td>0.452</td>
 </tr>
 <tr valign="top" class="Failure">
 <td><a href="programmer/2_ViewProgrammerInfoSpec.html">ViewProgrammerInfoSpec</a></td><td><a name="should go to the incomplete details page if any of the field for the add pair is left empty"></a><a href="programmer/2_ViewProgrammerInfoSpec.html#should go to the incomplete details page if any of the field for the add pair is left empty">should go to the incomplete details page if any of the field for the add pair is left empty</a></td><td>Failure</td><td>geb.error.RequiredPageContentNotPresent: The required page content 'programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])' is not present<pre>junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content 'programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])' is not present
@@ -73,21 +73,10 @@ Programmer.count() == 1
 	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
 	at programmer.ViewProgrammerInfoSpec.should go to the incomplete details page if any of the field for the add pair is left empty(ViewProgrammerInfoSpec.groovy:33)
 </pre>
-</td><td>1.287</td>
+</td><td>0.674</td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a href="org/matrix/4_ProgrammerIntegrationSpec.html">ProgrammerIntegrationSpec</a></td><td><a name="should save programmer with Id and name"></a><a href="org/matrix/4_ProgrammerIntegrationSpec.html#should save programmer with Id and name">should save programmer with Id and name</a></td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 1            |       |            0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
-
-Programmer.count() == 1
-           |       |
-           0       false
-
-	at org.matrix.ProgrammerIntegrationSpec.should save programmer with Id and name(ProgrammerIntegrationSpec.groovy:24)
-</pre>
-</td><td>0.650</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a href="org/matrix/5_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should save pair"></a><a href="org/matrix/5_PairControllerSpec.html#should save pair">should save pair</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
+<td><a href="org/matrix/4_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should save pair"></a><a href="org/matrix/4_PairControllerSpec.html#should save pair">should save pair</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
      |       |
@@ -95,10 +84,10 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
 </pre>
-</td><td>1.668</td>
+</td><td>1.852</td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a href="org/matrix/5_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should add pair when input is from pairing matrix"></a><a href="org/matrix/5_PairControllerSpec.html#should add pair when input is from pairing matrix">should add pair when input is from pairing matrix</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
+<td><a href="org/matrix/4_PairControllerSpec.html">PairControllerSpec</a></td><td><a name="should add pair when input is from pairing matrix"></a><a href="org/matrix/4_PairControllerSpec.html#should add pair when input is from pairing matrix">should add pair when input is from pairing matrix</a></td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
      |       |
@@ -106,10 +95,10 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should add pair when input is from pairing matrix(PairControllerSpec.groovy:68)
 </pre>
-</td><td>0.032</td>
+</td><td>0.087</td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a href="org/matrix/6_ProgrammerControllerSpec.html">ProgrammerControllerSpec</a></td><td><a name="should save programmer with Id and name"></a><a href="org/matrix/6_ProgrammerControllerSpec.html#should save programmer with Id and name">should save programmer with Id and name</a></td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 1            |       |            0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
+<td><a href="org/matrix/5_ProgrammerControllerSpec.html">ProgrammerControllerSpec</a></td><td><a name="should save programmer with Id and name"></a><a href="org/matrix/5_ProgrammerControllerSpec.html#should save programmer with Id and name">should save programmer with Id and name</a></td><td>Failure</td><td>Condition not satisfied:  Programmer.count() == 1            |       |            0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
 
 Programmer.count() == 1
            |       |
@@ -117,7 +106,7 @@ Programmer.count() == 1
 
 	at org.matrix.ProgrammerControllerSpec.should save programmer with Id and name(ProgrammerControllerSpec.groovy:18)
 </pre>
-</td><td>0.090</td>
+</td><td>0.130</td>
 </tr>
 </table>
 </body>

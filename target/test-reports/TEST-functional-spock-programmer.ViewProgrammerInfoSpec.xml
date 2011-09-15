@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="twu-pc" name="programmer.ViewProgrammerInfoSpec" tests="2" time="1.749" timestamp="2011-09-15T12:02:11">
+<testsuite errors="0" failures="1" hostname="twu-pc" name="programmer.ViewProgrammerInfoSpec" tests="2" time="1.163" timestamp="2011-09-15T12:29:31">
   <properties />
-  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page" time="0.441" />
-  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to the incomplete details page if any of the field for the add pair is left empty" time="1.287">
+  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page" time="0.469" />
+  <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to the incomplete details page if any of the field for the add pair is left empty" time="0.674">
     <failure message="geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present
 	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
 	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:107)

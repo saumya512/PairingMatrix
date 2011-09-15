@@ -52,7 +52,7 @@
 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
 </tr>
 <tr valign="top" class="Failure">
-<td><a href="4_PairControllerSpec.html" title="Display all tests">PairControllerSpec</a></td><td><a href="4_PairControllerSpec.html" title="Display all tests">4</a></td><td>0</td><td><a href="4_PairControllerSpec-fails.html" title="Display only failures">2</a></td><td>0.932</td><td>2011-09-15T09:18:49</td><td>twu-pc</td>
+<td><a href="4_PairControllerSpec.html" title="Display all tests">PairControllerSpec</a></td><td><a href="4_PairControllerSpec.html" title="Display all tests">5</a></td><td>0</td><td><a href="4_PairControllerSpec-fails.html" title="Display only failures">2</a></td><td>2.180</td><td>2011-09-15T12:29:10</td><td>twu-pc</td>
 </tr>
 </table>
 <h2>Tests</h2>
@@ -69,13 +69,13 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
 </pre>
-</td><td>0.824</td>
+</td><td>1.852</td>
 </tr>
 <tr valign="top" class="TableRowColor">
-<td><a name="should update pair if it already exists"></a>should update pair if it already exists</td><td>Success</td><td></td><td>0.033</td>
+<td><a name="should update pair if it already exists"></a>should update pair if it already exists</td><td>Success</td><td></td><td>0.065</td>
 </tr>
 <tr valign="top" class="TableRowColor">
-<td><a name="should update pair if it already exists when input is from pairing matrix"></a>should update pair if it already exists when input is from pairing matrix</td><td>Success</td><td></td><td>0.031</td>
+<td><a name="should update pair if it already exists when input is from pairing matrix"></a>should update pair if it already exists when input is from pairing matrix</td><td>Success</td><td></td><td>0.084</td>
 </tr>
 <tr valign="top" class="Failure">
 <td><a name="should add pair when input is from pairing matrix"></a>should add pair when input is from pairing matrix</td><td>Failure</td><td>Condition not satisfied:  Pair.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
@@ -86,7 +86,10 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should add pair when input is from pairing matrix(PairControllerSpec.groovy:68)
 </pre>
-</td><td>0.030</td>
+</td><td>0.087</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="should update pair if it already exists even in reverse direction when input is from pairing matrix"></a>should update pair if it already exists even in reverse direction when input is from pairing matrix</td><td>Success</td><td></td><td>0.073</td>
 </tr>
 </table>
 <div class="Properties">

@@ -1,5 +1,5 @@
 Testsuite: org.matrix.PairControllerSpec
-Tests run: 5, Failures: 2, Errors: 0, Time elapsed: 1.814 sec
+Tests run: 5, Failures: 2, Errors: 0, Time elapsed: 2.18 sec
 ------------- Standard Output ---------------
 --Output from should save pair--
 --Output from should update pair if it already exists--
@@ -15,7 +15,7 @@ Tests run: 5, Failures: 2, Errors: 0, Time elapsed: 1.814 sec
 --Output from should update pair if it already exists even in reverse direction when input is from pairing matrix--
 ------------- ---------------- ---------------
 
-Testcase: should save pair took 1.66 sec
+Testcase: should save pair took 1.832 sec
 	FAILED
 Condition not satisfied:
 
@@ -31,9 +31,9 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
 
-Testcase: should update pair if it already exists took 0.026 sec
-Testcase: should update pair if it already exists when input is from pairing matrix took 0.036 sec
-Testcase: should add pair when input is from pairing matrix took 0.032 sec
+Testcase: should update pair if it already exists took 0.065 sec
+Testcase: should update pair if it already exists when input is from pairing matrix took 0.084 sec
+Testcase: should add pair when input is from pairing matrix took 0.087 sec
 	FAILED
 Condition not satisfied:
 
@@ -49,4 +49,4 @@ Pair.count() == 1
 
 	at org.matrix.PairControllerSpec.should add pair when input is from pairing matrix(PairControllerSpec.groovy:68)
 
-Testcase: should update pair if it already exists even in reverse direction when input is from pairing matrix took 0.035 sec
+Testcase: should update pair if it already exists even in reverse direction when input is from pairing matrix took 0.073 sec

@@ -1,5 +1,5 @@
 Testsuite: pair.IncompleteDetailsSpec
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 6.701 sec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 6.265 sec
 ------------- Standard Output ---------------
 --Output from should go to the view programmers page when the back button is clicked--
 ------------- ---------------- ---------------
@@ -7,7 +7,7 @@ Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 6.701 sec
 --Output from should go to the view programmers page when the back button is clicked--
 ------------- ---------------- ---------------
 
-Testcase: should go to the view programmers page when the back button is clicked took 6.66 sec
+Testcase: should go to the view programmers page when the back button is clicked took 6.241 sec
 	FAILED
 geb.error.RequiredPageContentNotPresent: The required page content 'back - SimplePageContent (owner: IncompleteDetailsPage, args: [])' is not present
 junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content 'back - SimplePageContent (owner: IncompleteDetailsPage, args: [])' is not present

@@ -12,12 +12,21 @@
         }
       </style>
 
+     <g:javascript library="jquery-1.6.1"/>
+     <g:javascript library="clickBackButton"/>
+
+     <script type="text/javascript">
+     $(function() {
+         returnToView("#back");
+     });
+     </script>
+
   </head>
 
   <h1 class="form-header">Sorry! you did not complete the details!!</h1>
- <g:form controller="programmer" action="view">
-     <div class="form-submit-area">
-        <input type="submit" id="back" value="back"/>
+<g:form controller="programmer" action="view" method="POST" id="backForm">
+     <div class = "form-submit-area">
+        <button id="back">back</button>
     </div>
- </g:form>
+    </g:form>
 </html>

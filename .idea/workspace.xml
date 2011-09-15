@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9ff6015-3644-4b0c-9646-cf48d06f7d4d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/TEST-integration-spock-org.matrix.ProgrammerIntegrationSpec.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/TEST-unit-unit-org.matrix.PairControllerTests.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/TEST-unit-unit-org.matrix.PairTests.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/TEST-unit-unit-org.matrix.ProgrammerTests.xml" afterPath="" />
@@ -9,9 +10,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/5_JavascriptRunnerTest-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/5_JavascriptRunnerTest-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/5_JavascriptRunnerTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/6_JavascriptRunnerTest-err.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/6_JavascriptRunnerTest-out.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/6_JavascriptRunnerTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/7_JavascriptRunnerTest-err.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/7_JavascriptRunnerTest-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/7_JavascriptRunnerTest.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/0_PairControllerSpec-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/0_PairControllerSpec-fails.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/0_PairControllerSpec-out.txt" afterPath="" />
@@ -26,20 +27,24 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/3_PairControllerSpec-fails.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/3_PairControllerSpec-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/3_PairControllerSpec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-err.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-fails.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-out.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_ProgrammerControllerSpec-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_ProgrammerControllerSpec-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_ProgrammerControllerSpec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec-err.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec-fails.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec-out.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_ProgrammerIntegrationSpec-err.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_ProgrammerIntegrationSpec-fails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_ProgrammerIntegrationSpec-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_ProgrammerIntegrationSpec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_PairControllerSpec-err.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_PairControllerSpec-fails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_PairControllerSpec-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_PairControllerSpec.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/6_PairControllerTests-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/6_PairControllerTests-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/6_PairControllerTests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/6_ProgrammerControllerSpec-err.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/6_ProgrammerControllerSpec-fails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/6_ProgrammerControllerSpec-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/6_ProgrammerControllerSpec.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/7_PairControllerTests-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/7_PairControllerTests-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/7_PairControllerTests.html" afterPath="" />
@@ -76,6 +81,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/2_ViewProgrammersSpec-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/2_ViewProgrammersSpec-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/2_ViewProgrammersSpec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-integration-spock-org.matrix.ProgrammerIntegrationSpec-err.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-integration-spock-org.matrix.ProgrammerIntegrationSpec-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-integration-spock-org.matrix.ProgrammerIntegrationSpec.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-org.matrix.PairControllerTests-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-org.matrix.PairControllerTests-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-org.matrix.PairControllerTests.txt" afterPath="" />
@@ -88,18 +96,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-pairingmatrix.PairMatrixTests-err.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-pairingmatrix.PairMatrixTests-out.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-pairingmatrix.PairMatrixTests.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/functionalTests/pages/programmer/ShowPairingMatrixPage.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/javascript/clearTextFieldSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/javascript/pairMatrixCreateSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/js/clearTextField.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/js/pairMatrixCreate.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDB.script" afterPath="$PROJECT_DIR$/devDB.script" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDB.log" afterPath="$PROJECT_DIR$/devDB.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDB.properties" afterPath="$PROJECT_DIR$/devDB.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/org/matrix/ProgrammerController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/org/matrix/ProgrammerController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/pair/createMatrix.gsp" afterPath="$PROJECT_DIR$/grails-app/views/pair/createMatrix.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/pair/showMatrix.gsp" afterPath="$PROJECT_DIR$/grails-app/views/pair/showMatrix.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/pair/save.gsp" afterPath="$PROJECT_DIR$/grails-app/views/pair/save.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stacktrace.log" afterPath="$PROJECT_DIR$/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TEST-functional-spock-pair.IncompleteDetailsSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/TEST-functional-spock-pair.IncompleteDetailsSpec.xml" />
@@ -113,36 +113,34 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/all-tests.html" afterPath="$PROJECT_DIR$/target/test-reports/html/all-tests.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/test-reports/html/allclasses-frame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/alltests-fails.html" afterPath="$PROJECT_DIR$/target/test-reports/html/alltests-fails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/6_JavascriptRunnerTest.html" afterPath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/6_JavascriptRunnerTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/package-frame.html" afterPath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/package-frame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/package-summary.html" afterPath="$PROJECT_DIR$/target/test-reports/html/javascript/runner/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-err.txt" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-err.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-fails.html" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-fails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-out.txt" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec-out.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec.html" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/4_PairControllerSpec.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec-fails.html" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec-fails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec.html" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/5_ProgrammerControllerSpec.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/package-frame.html" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/package-frame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/org/matrix/package-summary.html" afterPath="$PROJECT_DIR$/target/test-reports/html/org/matrix/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/overview-frame.html" afterPath="$PROJECT_DIR$/target/test-reports/html/overview-frame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/overview-summary.html" afterPath="$PROJECT_DIR$/target/test-reports/html/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/pair/0_IncompleteDetailsSpec-fails.html" afterPath="$PROJECT_DIR$/target/test-reports/html/pair/0_IncompleteDetailsSpec-fails.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/pair/0_IncompleteDetailsSpec.html" afterPath="$PROJECT_DIR$/target/test-reports/html/pair/0_IncompleteDetailsSpec.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/pair/package-summary.html" afterPath="$PROJECT_DIR$/target/test-reports/html/pair/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec-err.txt" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec-err.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec-fails.html" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec-fails.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec-out.txt" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec-out.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec.html" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/1_AddProgrammerSpec.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/2_ViewProgrammerInfoSpec-fails.html" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/2_ViewProgrammerInfoSpec-fails.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/2_ViewProgrammerInfoSpec.html" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/2_ViewProgrammerInfoSpec.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/3_ViewProgrammersSpec.html" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/3_ViewProgrammersSpec.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/programmer/package-summary.html" afterPath="$PROJECT_DIR$/target/test-reports/html/programmer/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-pair.IncompleteDetailsSpec.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-pair.IncompleteDetailsSpec.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.AddProgrammerSpec-err.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.AddProgrammerSpec-err.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.AddProgrammerSpec-out.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.AddProgrammerSpec-out.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.AddProgrammerSpec.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.AddProgrammerSpec.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.ViewProgrammerInfoSpec.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.ViewProgrammerInfoSpec.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.ViewProgrammersSpec.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-programmer.ViewProgrammersSpec.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-spock-org.matrix.PairControllerSpec.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-spock-org.matrix.PairControllerSpec.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-spock-org.matrix.ProgrammerControllerSpec.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-spock-org.matrix.ProgrammerControllerSpec.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-javascript.runner.JavascriptRunnerTest.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-javascript.runner.JavascriptRunnerTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/functionalTests/pages/programmer/ViewProgrammerInfoPage.groovy" afterPath="$PROJECT_DIR$/test/functional/functionalTests/pages/programmer/ViewProgrammerInfoPage.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/functionalTests/pair/IncompleteDetailsPage.groovy" afterPath="$PROJECT_DIR$/test/functional/functionalTests/pair/IncompleteDetailsPage.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/programmer/AddProgrammerSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/programmer/AddProgrammerSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/programmer/ViewProgrammerInfoSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/programmer/ViewProgrammerInfoSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/org/matrix/ProgrammerControllerSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/org/matrix/ProgrammerControllerSpec.groovy" />
     </list>
     <ignored path="PairingMatrix.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -205,25 +203,53 @@
       <file leaf-file-name="save.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/pair/save.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="16" selection-start="605" selection-end="605" vertical-scroll-proportion="-7.0212765">
+            <state line="31" column="12" selection-start="829" selection-end="829" vertical-scroll-proportion="-9.893617">
+              <folding>
+                <marker date="1316089690000" expanded="true" signature="562:829" placeholder="&lt;xml/&gt;" />
+                <marker date="1316089690000" expanded="true" signature="724:807" placeholder="&lt;xml/&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pairTable.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/pair/pairTable.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProgrammerControllerSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/org/matrix/ProgrammerControllerSpec.groovy">
+      <file leaf-file-name="updateMatrix.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/pair/updateMatrix.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="54" selection-start="308" selection-end="308" vertical-scroll-proportion="-6.521739">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddProgrammerSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/functional/programmer/AddProgrammerSpec.groovy">
+      <file leaf-file-name="showMatrix.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/pair/showMatrix.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="5" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-2.5531914">
+              <folding>
+                <marker date="1316085429000" expanded="true" signature="512:523" placeholder="{...}" />
+                <marker date="1316085429000" expanded="true" signature="596:607" placeholder="{...}" />
+                <marker date="1316085429000" expanded="true" signature="680:691" placeholder="{...}" />
+                <marker date="1316085429000" expanded="true" signature="892:903" placeholder="{...}" />
+                <marker date="1316085429000" expanded="true" signature="976:987" placeholder="{...}" />
+                <marker date="1316085429000" expanded="true" signature="1195:1206" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clickBackButton.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/clickBackButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="40" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -238,41 +264,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createMatrix.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/pair/createMatrix.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="-4.787234">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showMatrix.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/pair/showMatrix.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-2.5531914">
-              <folding>
-                <marker date="1316085429000" expanded="true" signature="512:523" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="512:523" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="596:607" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="596:607" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="680:691" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="680:691" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="892:903" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="892:903" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="976:987" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="976:987" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="1195:1206" placeholder="{...}" />
-                <marker date="1316085429000" expanded="true" signature="1195:1206" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewProgrammerInfoPage.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ViewProgrammerInfoPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/functionalTests/pages/programmer/ViewProgrammerInfoPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.089020774">
+            <state line="16" column="48" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -281,7 +276,7 @@
       <file leaf-file-name="IncompleteDetailsPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/functionalTests/pair/IncompleteDetailsPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="4" column="6" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -319,8 +314,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/unit/javascript/runner/SpecRunner.html" />
-        <option value="$PROJECT_DIR$/web-app/js/pairMatrixCreate.js" />
         <option value="$PROJECT_DIR$/test/unit/javascript/clearTextFieldSpec.js" />
         <option value="$PROJECT_DIR$/web-app/js/clearTextField.js" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org/matrix/PairController.groovy" />
@@ -335,6 +328,8 @@
         <option value="$PROJECT_DIR$/test/unit/org/matrix/ProgrammerControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org/matrix/ProgrammerController.groovy" />
         <option value="$PROJECT_DIR$/test/functional/programmer/AddProgrammerSpec.groovy" />
+        <option value="$PROJECT_DIR$/web-app/js/clickBackButton.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/pair/save.gsp" />
       </list>
     </option>
   </component>
@@ -428,72 +423,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -513,32 +442,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programmer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pair" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,104 +490,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pair" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functionalTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programmer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test-reports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test-reports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -761,72 +566,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairingMatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1063,7 +802,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="24" width="1936" height="1218" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1075,7 +814,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.212186" sideWeight="0.6625709" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.212186" sideWeight="0.6625709" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1134,27 +873,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/unit/org/matrix/PairControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="31" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-7.7391305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/pair/IncompleteDetailsSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionalTests/pages/programmer/AddProgrammerPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/functionalTests/pages/programmer/ViewProgrammersPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="6" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
@@ -1169,50 +887,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/pair/showMatrix.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-2.5531914">
-          <folding>
-            <marker date="1316085429000" expanded="true" signature="512:523" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="512:523" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="596:607" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="596:607" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="680:691" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="680:691" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="892:903" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="892:903" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="976:987" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="976:987" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="1195:1206" placeholder="{...}" />
-            <marker date="1316085429000" expanded="true" signature="1195:1206" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/pair/createMatrix.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="-4.787234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/programmer/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/pair/save.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="605" selection-end="605" vertical-scroll-proportion="-7.0212765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/matrix/ProgrammerController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="37" selection-start="622" selection-end="622" vertical-scroll-proportion="-15.0">
           <folding />
         </state>
       </provider>
@@ -1231,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionalTests/pair/IncompleteDetailsPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/programmer/ViewProgrammerInfoSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="6" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
@@ -1245,9 +915,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/functionalTests/pages/programmer/ViewProgrammerInfoPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.089020774">
+        <state line="16" column="48" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionalTests/pair/IncompleteDetailsPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/programmer/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/clickBackButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/matrix/ProgrammerController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="37" selection-start="622" selection-end="622" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pair/updateMatrix.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pair/showMatrix.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-2.5531914">
+          <folding>
+            <marker date="1316085429000" expanded="true" signature="512:523" placeholder="{...}" />
+            <marker date="1316085429000" expanded="true" signature="596:607" placeholder="{...}" />
+            <marker date="1316085429000" expanded="true" signature="680:691" placeholder="{...}" />
+            <marker date="1316085429000" expanded="true" signature="892:903" placeholder="{...}" />
+            <marker date="1316085429000" expanded="true" signature="976:987" placeholder="{...}" />
+            <marker date="1316085429000" expanded="true" signature="1195:1206" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pair/save.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="12" selection-start="829" selection-end="829" vertical-scroll-proportion="-9.893617">
+          <folding>
+            <marker date="1316089690000" expanded="true" signature="562:829" placeholder="&lt;xml/&gt;" />
+            <marker date="1316089690000" expanded="true" signature="724:807" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pair/pairTable.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

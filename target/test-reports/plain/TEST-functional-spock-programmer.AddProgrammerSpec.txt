@@ -1,5 +1,5 @@
 Testsuite: programmer.AddProgrammerSpec
-Tests run: 3, Failures: 2, Errors: 0, Time elapsed: 1.869 sec
+Tests run: 3, Failures: 2, Errors: 0, Time elapsed: 2.168 sec
 ------------- Standard Output ---------------
 --Output from should go to view programmers page when a programmer is added--
 --Output from should not add programmer with no ID--
@@ -11,8 +11,8 @@ Tests run: 3, Failures: 2, Errors: 0, Time elapsed: 1.869 sec
 --Output from should not add the programmer to the table if he already exists--
 ------------- ---------------- ---------------
 
-Testcase: should go to view programmers page when a programmer is added took 0.664 sec
-Testcase: should not add programmer with no ID took 0.783 sec
+Testcase: should go to view programmers page when a programmer is added took 0.874 sec
+Testcase: should not add programmer with no ID took 0.833 sec
 	FAILED
 Condition not satisfied:
 
@@ -28,7 +28,7 @@ Programmer.count() == 0
 
 	at programmer.AddProgrammerSpec.should not add programmer with no ID(AddProgrammerSpec.groovy:35)
 
-Testcase: should not add the programmer to the table if he already exists took 0.409 sec
+Testcase: should not add the programmer to the table if he already exists took 0.443 sec
 	FAILED
 Condition not satisfied:
 
