@@ -9,14 +9,20 @@ class ProgrammerController {
 
     def save = {
         def newProgrammer = new Programmer(params)
+        if(params.programmerId!="")
+        {
         def progExists = Programmer.findByProgrammerId(params.programmerId)
-        if(progExists == null)
+        if(progExists == null )
         {
         if(newProgrammer.save()) {
             redirect(action: 'view', params: [id: newProgrammer.programmerId])
         }
         }
         redirect(action: 'view', params: [id: newProgrammer.programmerId])
+        }
+        else
+            redirect(action: 'create')
+
     }
 
     def view = {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="twu-pc" name="javascript.runner.JavascriptRunnerTest" tests="1" time="5.67" timestamp="2011-09-15T09:18:41">
+<testsuite errors="0" failures="0" hostname="twu-pc" name="javascript.runner.JavascriptRunnerTest" tests="1" time="5.247" timestamp="2011-09-15T12:01:43">
   <properties />
-  <testcase classname="javascript.runner.JavascriptRunnerTest" name="testJavascript" time="5.654" />
+  <testcase classname="javascript.runner.JavascriptRunnerTest" name="testJavascript" time="5.234" />
   <system-out><![CDATA[--Output from testJavascript--
 ]]></system-out>
   <system-err><![CDATA[--Output from testJavascript--

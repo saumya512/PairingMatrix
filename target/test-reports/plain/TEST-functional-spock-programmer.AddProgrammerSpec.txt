@@ -1,16 +1,34 @@
 Testsuite: programmer.AddProgrammerSpec
-Tests run: 2, Failures: 1, Errors: 0, Time elapsed: 1.484 sec
+Tests run: 3, Failures: 2, Errors: 0, Time elapsed: 1.869 sec
 ------------- Standard Output ---------------
 --Output from should go to view programmers page when a programmer is added--
+--Output from should not add programmer with no ID--
 --Output from should not add the programmer to the table if he already exists--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from should go to view programmers page when a programmer is added--
+--Output from should not add programmer with no ID--
 --Output from should not add the programmer to the table if he already exists--
 ------------- ---------------- ---------------
 
-Testcase: should go to view programmers page when a programmer is added took 1.02 sec
-Testcase: should not add the programmer to the table if he already exists took 0.458 sec
+Testcase: should go to view programmers page when a programmer is added took 0.664 sec
+Testcase: should not add programmer with no ID took 0.783 sec
+	FAILED
+Condition not satisfied:
+
+Programmer.count() == 0
+           |       |
+           2       false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 0
+           |       |
+           2       false
+
+	at programmer.AddProgrammerSpec.should not add programmer with no ID(AddProgrammerSpec.groovy:35)
+
+Testcase: should not add the programmer to the table if he already exists took 0.409 sec
 	FAILED
 Condition not satisfied:
 
@@ -24,5 +42,5 @@ Programmer.count() == 1
            |       |
            2       false
 
-	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:36)
+	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:50)
 

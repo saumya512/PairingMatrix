@@ -23,7 +23,21 @@ class AddProgrammerSpec extends PairingMatrixGebSpec{
         assert at(ViewProgrammersPage)
     }
 
+    def 'should not add programmer with no ID'() {
+        when:
+        to AddProgrammerPage
+        and:
+        programmerId << ""
+        programmerName << "saumya"
+        save.click()
+
+        then:
+        Programmer.count() == 0
+    }
+
     def 'should not add the programmer to the table if he already exists'() {
+        setup:
+        new Programmer(programmerId: "123", programmerName: "saumya").save(flush:true)
 
         when:
         to AddProgrammerPage

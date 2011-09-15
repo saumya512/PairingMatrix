@@ -1,5 +1,5 @@
 Testsuite: pair.IncompleteDetailsSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 6.992 sec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 6.701 sec
 ------------- Standard Output ---------------
 --Output from should go to the view programmers page when the back button is clicked--
 ------------- ---------------- ---------------
@@ -7,4 +7,21 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 6.992 sec
 --Output from should go to the view programmers page when the back button is clicked--
 ------------- ---------------- ---------------
 
-Testcase: should go to the view programmers page when the back button is clicked took 6.986 sec
+Testcase: should go to the view programmers page when the back button is clicked took 6.66 sec
+	FAILED
+geb.error.RequiredPageContentNotPresent: The required page content 'back - SimplePageContent (owner: IncompleteDetailsPage, args: [])' is not present
+junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content 'back - SimplePageContent (owner: IncompleteDetailsPage, args: [])' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:107)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at pair.IncompleteDetailsSpec.should go to the view programmers page when the back button is clicked(IncompleteDetailsSpec.groovy:15)
+

@@ -14,15 +14,6 @@
 
   </head>
 
-<g:javascript library="jquery" plugin="jquery"/>
-      <g:javascript library="pairMatrixCreate"/>
-
-<script type="text/javascript">
-    $(function() {
-        createPairMatrix()
-    });
-</script>
-
   <h1 class="form-header">Create A Pairing Matrix For 4 Programmers</h1>
 
     <label><b>Enter Names of : </b></label>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="2" hostname="twu-pc" name="org.matrix.PairControllerSpec" tests="5" time="1.64" timestamp="2011-09-15T10:20:05">
+<testsuite errors="0" failures="2" hostname="twu-pc" name="org.matrix.PairControllerSpec" tests="5" time="1.814" timestamp="2011-09-15T12:01:49">
   <properties />
-  <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="1.438">
+  <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="1.668">
     <failure message="Condition not satisfied:
 
 Pair.count() == 1
@@ -16,9 +16,9 @@ Pair.count() == 1
 	at org.matrix.PairControllerSpec.should save pair(PairControllerSpec.groovy:20)
 </failure>
   </testcase>
-  <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists" time="0.031" />
-  <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists when input is from pairing matrix" time="0.042" />
-  <testcase classname="org.matrix.PairControllerSpec" name="should add pair when input is from pairing matrix" time="0.039">
+  <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists" time="0.026" />
+  <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists when input is from pairing matrix" time="0.036" />
+  <testcase classname="org.matrix.PairControllerSpec" name="should add pair when input is from pairing matrix" time="0.032">
     <failure message="Condition not satisfied:
 
 Pair.count() == 1
@@ -33,7 +33,7 @@ Pair.count() == 1
 	at org.matrix.PairControllerSpec.should add pair when input is from pairing matrix(PairControllerSpec.groovy:68)
 </failure>
   </testcase>
-  <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists even in reverse direction when input is from pairing matrix" time="0.062" />
+  <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists even in reverse direction when input is from pairing matrix" time="0.035" />
   <system-out><![CDATA[--Output from should save pair--
 --Output from should update pair if it already exists--
 --Output from should update pair if it already exists when input is from pairing matrix--

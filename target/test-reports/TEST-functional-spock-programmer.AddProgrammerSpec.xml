@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="2" time="1.484" timestamp="2011-09-15T09:19:11">
+<testsuite errors="0" failures="2" hostname="twu-pc" name="programmer.AddProgrammerSpec" tests="3" time="1.869" timestamp="2011-09-15T12:02:13">
   <properties />
-  <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="1.02" />
-  <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.463">
+  <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="0.664" />
+  <testcase classname="programmer.AddProgrammerSpec" name="should not add programmer with no ID" time="0.789">
+    <failure message="Condition not satisfied:
+
+Programmer.count() == 0
+           |       |
+           2       false
+" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 0
+           |       |
+           2       false
+
+	at programmer.AddProgrammerSpec.should not add programmer with no ID(AddProgrammerSpec.groovy:35)
+</failure>
+  </testcase>
+  <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.415">
     <failure message="Condition not satisfied:
 
 Programmer.count() == 1
@@ -14,13 +29,15 @@ Programmer.count() == 1
            |       |
            2       false
 
-	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:36)
+	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:50)
 </failure>
   </testcase>
   <system-out><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add programmer with no ID--
 --Output from should not add the programmer to the table if he already exists--
 ]]></system-out>
   <system-err><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add programmer with no ID--
 --Output from should not add the programmer to the table if he already exists--
 ]]></system-err>
 </testsuite>

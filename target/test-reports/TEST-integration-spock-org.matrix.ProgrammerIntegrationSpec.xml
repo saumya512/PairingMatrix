@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="twu-pc" name="org.matrix.ProgrammerIntegrationSpec" tests="1" time="0.65" timestamp="2011-09-15T12:01:59">
+  <properties />
+  <testcase classname="org.matrix.ProgrammerIntegrationSpec" name="should save programmer with Id and name" time="0.65">
+    <failure message="Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           0       false
+" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           0       false
+
+	at org.matrix.ProgrammerIntegrationSpec.should save programmer with Id and name(ProgrammerIntegrationSpec.groovy:24)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from should save programmer with Id and name--
+]]></system-out>
+  <system-err><![CDATA[--Output from should save programmer with Id and name--
+]]></system-err>
+</testsuite>

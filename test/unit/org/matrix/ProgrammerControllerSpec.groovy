@@ -8,7 +8,6 @@ class ProgrammerControllerSpec extends ControllerSpec {
         setup:
         def programmers = []
         mockDomain(Programmer, programmers)
-        ProgrammerController controller = new ProgrammerController()
         controller.params.programmers = '1234'
         controller.params.programmerName = 'saumya'
 
@@ -23,7 +22,6 @@ class ProgrammerControllerSpec extends ControllerSpec {
         setup:
         def programmers = []
         mockDomain(Programmer, programmers)
-        ProgrammerController controller = new ProgrammerController()
         controller.params.programmerId = '1234'
         controller.params.programmerName = 'saumya'
 

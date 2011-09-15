@@ -1,0 +1,25 @@
+Testsuite: org.matrix.ProgrammerIntegrationSpec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.65 sec
+------------- Standard Output ---------------
+--Output from should save programmer with Id and name--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should save programmer with Id and name--
+------------- ---------------- ---------------
+
+Testcase: should save programmer with Id and name took 0.638 sec
+	FAILED
+Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           0       false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           0       false
+
+	at org.matrix.ProgrammerIntegrationSpec.should save programmer with Id and name(ProgrammerIntegrationSpec.groovy:24)
+

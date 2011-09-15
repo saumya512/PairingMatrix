@@ -1,5 +1,5 @@
 Testsuite: programmer.ViewProgrammerInfoSpec
-Tests run: 2, Failures: 1, Errors: 1, Time elapsed: 2.031 sec
+Tests run: 2, Failures: 1, Errors: 0, Time elapsed: 1.749 sec
 ------------- Standard Output ---------------
 --Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
 --Output from should go to the incomplete details page if any of the field for the add pair is left empty--
@@ -9,16 +9,8 @@ Tests run: 2, Failures: 1, Errors: 1, Time elapsed: 2.031 sec
 --Output from should go to the incomplete details page if any of the field for the add pair is left empty--
 ------------- ---------------- ---------------
 
-Testcase: should go to show the same programmer's details on view programmers info page that is requested at view programmers page took 0.512 sec
-	Caused an ERROR
-Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it's Navigator context
-geb.error.UnresolvablePropertyException: Unable to resolve value as content for progId - SimplePageContent (owner: ViewProgrammerInfoPage, args: []), or as a property on it's Navigator context
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
-	at geb.content.SimplePageContent.propertyMissing(SimplePageContent.groovy)
-	at geb.content.TemplateDerivedPageContent.getProperty(TemplateDerivedPageContent.groovy)
-	at programmer.ViewProgrammerInfoSpec.should go to show the same programmer's details on view programmers info page that is requested at view programmers page(ViewProgrammerInfoSpec.groovy:25)
-
-Testcase: should go to the incomplete details page if any of the field for the add pair is left empty took 1.401 sec
+Testcase: should go to show the same programmer's details on view programmers info page that is requested at view programmers page took 0.441 sec
+Testcase: should go to the incomplete details page if any of the field for the add pair is left empty took 1.282 sec
 	FAILED
 geb.error.RequiredPageContentNotPresent: The required page content 'programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])' is not present
 junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content 'programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])' is not present
@@ -34,5 +26,5 @@ junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: T
 	at geb.Browser.propertyMissing(Browser.groovy:174)
 	at geb.Browser.getProperty(Browser.groovy)
 	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
-	at programmer.ViewProgrammerInfoSpec.should go to the incomplete details page if any of the field for the add pair is left empty(ViewProgrammerInfoSpec.groovy:32)
+	at programmer.ViewProgrammerInfoSpec.should go to the incomplete details page if any of the field for the add pair is left empty(ViewProgrammerInfoSpec.groovy:33)
 

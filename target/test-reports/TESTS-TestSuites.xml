@@ -1,9 +1,149 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="2" hostname="twu-pc" id="0" name="PairControllerSpec" package="org.matrix" tests="5" time="1.64" timestamp="2011-09-15T10:20:05">
+  <testsuite errors="0" failures="1" hostname="twu-pc" id="0" name="IncompleteDetailsSpec" package="pair" tests="1" time="6.701" timestamp="2011-09-15T12:02:02">
       <properties />
 
-      <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="1.438">
+      <testcase classname="pair.IncompleteDetailsSpec" name="should go to the view programmers page when the back button is clicked" time="6.682">
+          <failure message="geb.error.RequiredPageContentNotPresent: The required page content &apos;back - SimplePageContent (owner: IncompleteDetailsPage, args: [])&apos; is not present" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content &apos;back - SimplePageContent (owner: IncompleteDetailsPage, args: [])&apos; is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:107)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at pair.IncompleteDetailsSpec.should go to the view programmers page when the back button is clicked(IncompleteDetailsSpec.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from should go to the view programmers page when the back button is clicked--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to the view programmers page when the back button is clicked--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="twu-pc" id="1" name="AddProgrammerSpec" package="programmer" tests="3" time="1.869" timestamp="2011-09-15T12:02:13">
+      <properties />
+
+      <testcase classname="programmer.AddProgrammerSpec" name="should go to view programmers page when a programmer is added" time="0.664" />
+
+      <testcase classname="programmer.AddProgrammerSpec" name="should not add programmer with no ID" time="0.789">
+          <failure message="Condition not satisfied:  Programmer.count() == 0            |       |            2       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 0
+           |       |
+           2       false
+
+	at programmer.AddProgrammerSpec.should not add programmer with no ID(AddProgrammerSpec.groovy:35)
+</failure>
+
+      </testcase>
+
+      <testcase classname="programmer.AddProgrammerSpec" name="should not add the programmer to the table if he already exists" time="0.415">
+          <failure message="Condition not satisfied:  Programmer.count() == 1            |       |            2       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           2       false
+
+	at programmer.AddProgrammerSpec.should not add the programmer to the table if he already exists(AddProgrammerSpec.groovy:50)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add programmer with no ID--
+--Output from should not add the programmer to the table if he already exists--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to view programmers page when a programmer is added--
+--Output from should not add programmer with no ID--
+--Output from should not add the programmer to the table if he already exists--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="twu-pc" id="2" name="ViewProgrammerInfoSpec" package="programmer" tests="2" time="1.749" timestamp="2011-09-15T12:02:11">
+      <properties />
+
+      <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to show the same programmer&apos;s details on view programmers info page that is requested at view programmers page" time="0.441" />
+
+      <testcase classname="programmer.ViewProgrammerInfoSpec" name="should go to the incomplete details page if any of the field for the add pair is left empty" time="1.287">
+          <failure message="geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: geb.error.RequiredPageContentNotPresent: The required page content &apos;programmersName - SimplePageContent (owner: ViewProgrammerInfoPage, args: [])&apos; is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:107)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at programmer.ViewProgrammerInfoSpec.should go to the incomplete details page if any of the field for the add pair is left empty(ViewProgrammerInfoSpec.groovy:33)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+--Output from should go to the incomplete details page if any of the field for the add pair is left empty--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to show the same programmer's details on view programmers info page that is requested at view programmers page--
+--Output from should go to the incomplete details page if any of the field for the add pair is left empty--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="3" name="ViewProgrammersSpec" package="programmer" tests="2" time="1.888" timestamp="2011-09-15T12:02:09">
+      <properties />
+
+      <testcase classname="programmer.ViewProgrammersSpec" name="should go to show programmers detail page on clicking the view programmer info button" time="1.487" />
+
+      <testcase classname="programmer.ViewProgrammersSpec" name="should remain on view programmers page if a non existing id is input in the programmer id input text box" time="0.395" />
+
+      <system-out><![CDATA[--Output from should go to show programmers detail page on clicking the view programmer info button--
+--Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to show programmers detail page on clicking the view programmer info button--
+--Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="twu-pc" id="4" name="ProgrammerIntegrationSpec" package="org.matrix" tests="1" time="0.65" timestamp="2011-09-15T12:01:59">
+      <properties />
+
+      <testcase classname="org.matrix.ProgrammerIntegrationSpec" name="should save programmer with Id and name" time="0.65">
+          <failure message="Condition not satisfied:  Programmer.count() == 1            |       |            0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           0       false
+
+	at org.matrix.ProgrammerIntegrationSpec.should save programmer with Id and name(ProgrammerIntegrationSpec.groovy:24)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from should save programmer with Id and name--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should save programmer with Id and name--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="twu-pc" id="5" name="PairControllerSpec" package="org.matrix" tests="5" time="1.814" timestamp="2011-09-15T12:01:49">
+      <properties />
+
+      <testcase classname="org.matrix.PairControllerSpec" name="should save pair" time="1.668">
           <failure message="Condition not satisfied:  Pair.count() == 1      |       |      0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
@@ -15,11 +155,11 @@ Pair.count() == 1
 
       </testcase>
 
-      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists" time="0.031" />
+      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists" time="0.026" />
 
-      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists when input is from pairing matrix" time="0.042" />
+      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists when input is from pairing matrix" time="0.036" />
 
-      <testcase classname="org.matrix.PairControllerSpec" name="should add pair when input is from pairing matrix" time="0.039">
+      <testcase classname="org.matrix.PairControllerSpec" name="should add pair when input is from pairing matrix" time="0.032">
           <failure message="Condition not satisfied:  Pair.count() == 1      |       |      0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
 Pair.count() == 1
@@ -31,7 +171,7 @@ Pair.count() == 1
 
       </testcase>
 
-      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists even in reverse direction when input is from pairing matrix" time="0.062" />
+      <testcase classname="org.matrix.PairControllerSpec" name="should update pair if it already exists even in reverse direction when input is from pairing matrix" time="0.035" />
 
       <system-out><![CDATA[--Output from should save pair--
 --Output from should update pair if it already exists--
@@ -45,6 +185,44 @@ Pair.count() == 1
 --Output from should update pair if it already exists when input is from pairing matrix--
 --Output from should add pair when input is from pairing matrix--
 --Output from should update pair if it already exists even in reverse direction when input is from pairing matrix--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="twu-pc" id="6" name="ProgrammerControllerSpec" package="org.matrix" tests="2" time="0.108" timestamp="2011-09-15T12:01:51">
+      <properties />
+
+      <testcase classname="org.matrix.ProgrammerControllerSpec" name="should save programmer with Id and name" time="0.09">
+          <failure message="Condition not satisfied:  Programmer.count() == 1            |       |            0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Programmer.count() == 1
+           |       |
+           0       false
+
+	at org.matrix.ProgrammerControllerSpec.should save programmer with Id and name(ProgrammerControllerSpec.groovy:18)
+</failure>
+
+      </testcase>
+
+      <testcase classname="org.matrix.ProgrammerControllerSpec" name="should make the save action redirect to view programmers page" time="0.016" />
+
+      <system-out><![CDATA[--Output from should save programmer with Id and name--
+--Output from should make the save action redirect to view programmers page--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should save programmer with Id and name--
+--Output from should make the save action redirect to view programmers page--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="7" name="JavascriptRunnerTest" package="javascript.runner" tests="1" time="5.247" timestamp="2011-09-15T12:01:43">
+      <properties />
+
+      <testcase classname="javascript.runner.JavascriptRunnerTest" name="testJavascript" time="5.234" />
+
+      <system-out><![CDATA[--Output from testJavascript--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testJavascript--
 ]]></system-err>
 
   </testsuite>

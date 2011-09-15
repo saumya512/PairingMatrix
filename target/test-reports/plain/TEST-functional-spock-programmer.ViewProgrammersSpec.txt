@@ -1,5 +1,5 @@
 Testsuite: programmer.ViewProgrammersSpec
-Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 1.513 sec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 1.888 sec
 ------------- Standard Output ---------------
 --Output from should go to show programmers detail page on clicking the view programmer info button--
 --Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
@@ -9,5 +9,5 @@ Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 1.513 sec
 --Output from should remain on view programmers page if a non existing id is input in the programmer id input text box--
 ------------- ---------------- ---------------
 
-Testcase: should go to show programmers detail page on clicking the view programmer info button took 1.079 sec
-Testcase: should remain on view programmers page if a non existing id is input in the programmer id input text box took 0.419 sec
+Testcase: should go to show programmers detail page on clicking the view programmer info button took 1.487 sec
+Testcase: should remain on view programmers page if a non existing id is input in the programmer id input text box took 0.395 sec

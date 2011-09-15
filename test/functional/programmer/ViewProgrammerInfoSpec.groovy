@@ -22,14 +22,15 @@ class ViewProgrammerInfoSpec extends PairingMatrixGebSpec{
         at ViewProgrammerInfoPage
 
         then:
-        assert progId.value == "1"
-        assert progName.value == "saumya"
+        progId.text().contains("1")
+        progName.text().contains("saumya")
+
     }
 
     def "should go to the incomplete details page if any of the field for the add pair is left empty"() {
         when:
         to ViewProgrammerInfoPage
-        programmersName.value = ""
+        programmersName << ""
         pairsName << "saumya"
         timesPaired << ""
         and:

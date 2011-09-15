@@ -7,18 +7,6 @@
      <link rel="stylesheet" href="${resource(dir: 'css', file: 'forms')}" />
   </head>
 
-<g:javascript library="jquery" plugin="jquery"/>
-      <g:javascript library="clearTextField"/>
-
-<script type="text/javascript">
-    $(function() {
-        clearField("#prog-1");
-        clearField("#prog-2");
-        clearField("#prog-3");
-        clearField("#prog-4");
-    });
-</script>
-
   <h1 class="form-header">Pairing Matrix</h1>
 <br><br>
 <g:form action="updateMatrix" method="post">
